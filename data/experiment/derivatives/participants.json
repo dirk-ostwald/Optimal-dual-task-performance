@@ -1,0 +1,8 @@
+{
+  "participant_id": {
+    "Description": "BIDS participant identifier inherited from the source BIDS dataset."
+  },
+  "P": {
+    "Description": "Participant number without BIDS zero padding."
+  }
+}

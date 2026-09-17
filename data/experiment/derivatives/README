@@ -1,0 +1,31 @@
+                                                                  # FCDT trial-by-trial derivative dataset
+
+This derivative dataset contains the trial-by-trial FCDT data from
+Experiment 1 of Brüning et al. (2020).
+
+It was generated from the local FCDT BIDS behavioral dataset by
+`abm_preparation.py`.
+
+Participant-level trial-by-trial derivative files are stored directly in this
+directory as tab-separated `sub-                                               ###.csv` files. The files use compact analysis
+column names:
+
+`P`, `R`, `B`, `C`, `T`, `O`, `t`, `sA`, `sB`, `a1`, `a2`, `a_t`, `r`, `RT`.
+
+The shared file `dataset_codebook.json` documents these columns. The files
+`participants.csv` and `participants.json` document participant identifiers.
+Stimulus files inherited from the source BIDS dataset are available in
+`stimuli/`; compact image stems in `sA`, `sB`, and `T` resolve against
+PNG files in `stimuli/images/`.
+
+The generated file `stimuli/stimuli.csv` maps task-specific integer identifiers
+to the concrete PTD, LTD, DPC, and RMC stimuli and records fixed binary labels
+where these are defined independently of participant and block.
+
+The generated file `design.json` documents the target configuration for each
+participant, task pair, run, and first or second block repetition. It also
+retains the corresponding local source block number.
+
+Column `C` identifies the paradigm as `PTD-RMC`, `PTD-DPC`, `LTD-RMC`, or
+`LTD-DPC`.
+

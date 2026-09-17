@@ -1,0 +1,49 @@
+{
+  "TaskName": "trial-by-trial",
+  "Description": "Trial-by-trial derivative reconstructed from the FCDT BIDS response-level files for Experiment 1 of Brüning et al. (2020). Each row is one response event with the visible stimulus in task stream A and task stream B before that response.",
+  "Columns": [
+    "P",
+    "R",
+    "B",
+    "C",
+    "T",
+    "O",
+    "t",
+    "sA",
+    "sB",
+    "a1",
+    "a2",
+    "a_t",
+    "r",
+    "RT"
+  ],
+  "ParadigmNaming": "Paradigm names combine the target-detection task (PTD or LTD) and classification task (RMC or DPC).",
+  "P": "Participant number without BIDS zero padding.",
+  "R": "BIDS run number.",
+  "B": "Continuous local block within a run, incremented when condition, trial counter, or local response clock resets.",
+  "C": {
+    "Description": "Free-concurrent dual-task paradigm.",
+    "Levels": {
+      "PTD-RMC": "2D pattern target detection and 3D rotation/mirror classification.",
+      "PTD-DPC": "2D pattern target detection and digit-parity classification.",
+      "LTD-RMC": "Letter-pair target detection and 3D rotation/mirror classification.",
+      "LTD-DPC": "Letter-pair target detection and digit-parity classification."
+    }
+  },
+  "T": "Inferred target stimulus set for the memory-search task in this block. Inferred from positive target trials (source value true) in the same block. Verbal pairs are canonicalized because order was irrelevant in the task.",
+  "O": {
+    "Description": "Trial onset in seconds, relative to the first stimulus onset of the current continuous block. The first trial starts at 0.000; each following trial starts at the previous response time.",
+    "Units": "s"
+  },
+  "t": "Zero-based trial index within block.",
+  "sA": "Visible stimulus in task stream A immediately before the selected response. Image stimuli are compacted from BIDS-relative rimages/... paths to filename stems and can be resolved against PNG files in the derivative stimuli/images directory. Terminal block states may be n/a when the source data do not contain the final unresponded stimulus for this stream.",
+  "sB": "Visible stimulus in task stream B immediately before the selected response. Image stimuli are compacted from BIDS-relative rimages/... paths to filename stems and can be resolved against PNG files in the derivative stimuli/images directory. Terminal block states may be n/a when the source data do not contain the final unresponded stimulus for this stream.",
+  "a1": "First action: participant task choice, coded as the selected task stream A or B.",
+  "a2": "Second action: participant task response, mapped to 1 for yes/true and 0 for no/false.",
+  "a_t": "Action tuple (j, k), with task j = 1 or 2 and binary response k = 0 or 1. Stored as tuple text in CSV, e.g. (1, 0).",
+  "r": "Reward feedback, coded as 1 for correct responses and 0 for incorrect responses.",
+  "RT": {
+    "Description": "Post-stimulus response time for the selected task stimulus in seconds, reconstructed as response_ms minus stim_pres_ms.",
+    "Units": "s"
+  }
+}

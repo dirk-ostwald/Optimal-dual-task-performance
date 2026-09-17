@@ -1,0 +1,74 @@
+{
+  "TaskName": "fcdt",
+  "Description": "Behavioral FCDT data from Experiment 1 of Brüning et al. (2020). Original source variable names are preserved.",
+  "Columns": [
+    "idx",
+    "VP",
+    "resource",
+    "condition",
+    "blockNo",
+    "trial",
+    "task",
+    "stimulus",
+    "value",
+    "key",
+    "response",
+    "stim_pres_ms",
+    "response_ms"
+  ],
+  "idx": {
+    "Description": "Number of the current row in the OSF source file."
+  },
+  "VP": {
+    "Description": "Participant number in the OSF source file."
+  },
+  "resource": {
+    "Description": "Type of resource competition. Level uni involves task pairs competing for the same perceptual-cognitive resources; level mix involves task pairs competing for different perceptual-cognitive resources.",
+    "Levels": {
+      "mix": "Task pairs competing for different perceptual-cognitive resources.",
+      "uni": "Task pairs competing for the same perceptual-cognitive resources."
+    }
+  },
+  "condition": {
+    "Description": "Experimental condition code in the OSF source file. The OSF workbook documents UniR, UniV, VgRk, and VkRg as the four combinations of verbal/spatial memory-search and classification tasks. The acronym components are read as Uni = uniform/same processing code, V = verbal, R = spatial/raeumlich, g = memory-search/Gedaechtnis, and k = classification/Klassifikation.",
+    "Levels": {
+      "UniR": "Uniform spatial condition: spatial memory-search task and spatial classification task; high resource competition because both tasks require spatial processing-code resources.",
+      "UniV": "Uniform verbal condition: verbal memory-search task and verbal classification task; high resource competition because both tasks require verbal processing-code resources.",
+      "VgRk": "Mixed verbal-memory/spatial-classification condition: verbal memory-search task and spatial classification task; low resource competition because verbal and spatial processing-code resources differ.",
+      "VkRg": "Mixed spatial-memory/verbal-classification condition: spatial memory-search task and verbal classification task; low resource competition because spatial and verbal processing-code resources differ."
+    }
+  },
+  "blockNo": {
+    "Description": "Number of the current block. A task-pair block entails two subblocks separated by a short break. This value was mapped to BIDS run labels by sorted order while the original value was preserved."
+  },
+  "trial": {
+    "Description": "Continuously numbered trial within the current source (sub-)block."
+  },
+  "task": {
+    "Description": "Currently performed component task. A denotes one of the two memory-search tasks, depending on condition; B denotes one of the two classification tasks, depending on condition.",
+    "Levels": {
+      "A": "Memory-search component task, depending on condition.",
+      "B": "Classification component task, depending on condition."
+    }
+  },
+  "stimulus": {
+    "Description": "Stimulus perceived by the participant. Image stimulus paths are normalized to paths relative to the BIDS stimuli directory; verbal stimuli are represented directly as text."
+  },
+  "value": {
+    "Description": "Expected response. TRUE denotes memory target, same parity, or not mirrored; FALSE denotes the respective no response; missing values denote VoiceKey errors."
+  },
+  "key": {
+    "Description": "Response given by the participant. TRUE denotes keys K/S or vocal response green; FALSE denotes keys L/A or vocal response red."
+  },
+  "response": {
+    "Description": "Match of value with key. TRUE means the given response equals the expected response; FALSE means key and value differ."
+  },
+  "stim_pres_ms": {
+    "Description": "Task-specific timestamp of the stimulus presentation. Inter-response intervals rather than simple reaction times are needed for the two task streams.",
+    "Units": "ms"
+  },
+  "response_ms": {
+    "Description": "Timestamp of the response button or vocal response.",
+    "Units": "ms"
+  }
+}

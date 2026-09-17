@@ -1,0 +1,17 @@
+{
+  "Name": "FCDT - Experiment 1 of Brüning et al. (2020)",
+  "BIDSVersion": "1.11.1",
+  "DatasetType": "raw",
+  "Authors": [
+    "Jovita Brüning",
+    "Marie Mückstein",
+    "Dietrich Manzey"
+  ],
+  "HowToAcknowledge": "Please cite Brüning, Mückstein, and Manzey (2020).",
+  "GeneratedBy": [
+    {
+      "Name": "abm_preparation.py",
+      "Description": "Local conversion from the OSF semicolon-delimited CSV file for Experiment 1 of Brüning et al. (2020) to BIDS behavioral TSV files."
+    }
+  ]
+}

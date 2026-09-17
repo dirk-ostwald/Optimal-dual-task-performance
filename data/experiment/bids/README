@@ -1,0 +1,17 @@
+                                                                  # FCDT BIDS behavioral dataset
+
+This dataset contains the FCDT data from Experiment 1 of Brüning et al. (2020).
+
+It was converted from the OSF source file `Data_Exp1_raw.csv`.
+
+The original OSF variable names were preserved. No derived BIDS-friendly columns
+such as `onset`, `duration`, `trial_type`, or `response_time` were added.
+
+Source `blockNo` values were mapped to BIDS run labels by sorted order:
+`2 -> run-01`, `3 -> run-02`, `4 -> run-03`.
+
+Image stimulus paths in the `stimulus` column were normalized to paths relative
+to this dataset's `stimuli/` directory, for example `images/13_50_k.jpg`. Text
+stimuli remain represented directly in the `stimulus` column. The OSF stimulus
+material is copied into the `stimuli/` directory.
+

@@ -1,0 +1,1214 @@
+idx	VP	resource	condition	blockNo	trial	task	stimulus	value	key	response	stim_pres_ms	response_ms
+115872	46	mix	VgRk	3	1	A	R  N	true	true	true	16	3921
+115873	46	mix	VgRk	3	2	A	N  R	true	true	true	3921	4607
+115874	46	mix	VgRk	3	3	A	P  S	true	true	true	4608	5343
+115875	46	mix	VgRk	3	4	A	C  R	false	false	true	5344	5943
+115876	46	mix	VgRk	3	5	B	images/1_50_k.jpg	false	false	true	16	6479
+115877	46	mix	VgRk	3	6	B	images/39_50_k.jpg	false	false	true	6480	7047
+115878	46	mix	VgRk	3	7	B	images/25_50_k.jpg	false	false	true	7048	7551
+115879	46	mix	VgRk	3	8	B	images/13_50_R_k.jpg	true	true	true	7553	8025
+115880	46	mix	VgRk	3	9	A	R  N	true	false	false	5944	9551
+115881	46	mix	VgRk	3	10	A	N  R	true	true	true	9552	12313
+115882	46	mix	VgRk	3	11	A	S  P	true	true	true	12314	12975
+115883	46	mix	VgRk	3	12	A	P  H	false	false	true	12976	13607
+115884	46	mix	VgRk	3	13	A	H  P	false	false	true	13608	14479
+115885	46	mix	VgRk	3	14	B	images/1_50_k.jpg	false	false	true	8026	16295
+115886	46	mix	VgRk	3	15	B	images/1_50_R_k.jpg	true	false	false	16296	16816
+115887	46	mix	VgRk	3	16	B	images/39_50_k.jpg	false	false	true	16817	17887
+115888	46	mix	VgRk	3	17	B	images/13_50_k.jpg	false	false	true	17888	18832
+115889	46	mix	VgRk	3	18	B	images/25_50_R_k.jpg	true	true	true	18833	19336
+115890	46	mix	VgRk	3	19	A	R  N	true	true	true	14480	21159
+115891	46	mix	VgRk	3	20	A	S  P	true	true	true	21160	21743
+115892	46	mix	VgRk	3	21	A	P  D	false	false	true	21743	22289
+115893	46	mix	VgRk	3	22	A	N  R	true	true	true	22289	23423
+115894	46	mix	VgRk	3	23	B	images/1_50_k.jpg	false	false	true	19337	25471
+115895	46	mix	VgRk	3	24	B	images/13_50_k.jpg	false	false	true	25472	26159
+115896	46	mix	VgRk	3	25	B	images/39_50_R_k.jpg	true	true	true	26160	26799
+115897	46	mix	VgRk	3	26	B	images/39_50_k.jpg	false	false	true	26799	27359
+115898	46	mix	VgRk	3	27	A	P  S	true	true	true	23424	27943
+115899	46	mix	VgRk	3	28	A	S  T	false	false	true	27943	28599
+115900	46	mix	VgRk	3	29	A	S  P	true	true	true	28599	29223
+115901	46	mix	VgRk	3	30	A	R  N	true	true	true	29224	30023
+115902	46	mix	VgRk	3	31	B	images/25_50_R_k.jpg	true	true	true	27359	31383
+115903	46	mix	VgRk	3	32	B	images/13_50_k.jpg	false	false	true	31383	31983
+115904	46	mix	VgRk	3	33	B	images/39_50_k.jpg	false	false	true	31983	32527
+115905	46	mix	VgRk	3	34	B	images/25_50_k.jpg	false	false	true	32527	33072
+115906	46	mix	VgRk	3	35	B	images/13_50_k.jpg	false	false	true	33072	34079
+115907	46	mix	VgRk	3	36	A	N  R	true	true	true	30023	34951
+115908	46	mix	VgRk	3	37	A	P  S	true	true	true	34951	35623
+115909	46	mix	VgRk	3	38	A	N  R	true	true	true	35623	36111
+115910	46	mix	VgRk	3	39	A	S  G	false	false	true	36114	36743
+115911	46	mix	VgRk	3	40	A	P  S	true	true	true	36744	37383
+115912	46	mix	VgRk	3	41	B	images/1_50_R_k.jpg	true	true	true	34080	39103
+115913	46	mix	VgRk	3	42	B	images/1_50_k.jpg	false	false	true	39103	40255
+115914	46	mix	VgRk	3	43	B	images/13_50_R_k.jpg	true	true	true	40255	40895
+115915	46	mix	VgRk	3	44	B	images/39_50_R_k.jpg	true	true	true	40895	41359
+115916	46	mix	VgRk	3	45	B	images/13_50_R_k.jpg	true	true	true	41359	41887
+115917	46	mix	VgRk	3	46	A	T  P	false	false	true	37383	43086
+115918	46	mix	VgRk	3	47	A	W  N	false	false	true	43087	43590
+115919	46	mix	VgRk	3	48	A	S  L	false	false	true	43591	44238
+115920	46	mix	VgRk	3	49	A	P  C	false	false	true	44239	45182
+115921	46	mix	VgRk	3	50	A	R  N	true	true	true	45184	45838
+115922	46	mix	VgRk	3	51	B	images/25_50_k.jpg	false	false	true	41887	47102
+115923	46	mix	VgRk	3	52	B	images/13_50_k.jpg	false	false	true	47103	47806
+115924	46	mix	VgRk	3	53	B	images/1_50_k.jpg	false	false	true	47807	48574
+115925	46	mix	VgRk	3	54	B	images/1_50_R_k.jpg	true	true	true	48575	49158
+115926	46	mix	VgRk	3	55	B	images/25_50_k.jpg	false	false	true	49159	49902
+115927	46	mix	VgRk	3	56	A	S  P	true	true	true	45839	50382
+115928	46	mix	VgRk	3	57	A	N  H	false	false	true	50383	50894
+115929	46	mix	VgRk	3	58	A	W  R	false	false	true	50895	52230
+115930	46	mix	VgRk	3	59	A	R  F	false	false	true	52231	52750
+115931	46	mix	VgRk	3	60	A	R  N	true	true	true	52751	53462
+115932	46	mix	VgRk	3	61	A	N  R	true	true	true	53463	54168
+115933	46	mix	VgRk	3	62	B	images/13_50_R_k.jpg	true	true	true	49903	55262
+115934	46	mix	VgRk	3	63	B	images/39_50_R_k.jpg	true	true	true	55263	55790
+115935	46	mix	VgRk	3	64	B	images/1_50_R_k.jpg	true	true	true	55791	56806
+115936	46	mix	VgRk	3	65	B	images/39_50_k.jpg	false	false	true	56807	57286
+115937	46	mix	VgRk	3	66	B	images/25_50_k.jpg	false	false	true	57287	57958
+115938	46	mix	VgRk	3	67	B	images/13_50_k.jpg	false	false	true	57960	58758
+115939	46	mix	VgRk	3	68	A	B  R	false	false	true	54169	60350
+115940	46	mix	VgRk	3	69	A	Y  P	false	false	true	60351	60936
+115941	46	mix	VgRk	3	70	A	S  P	true	true	true	60937	61614
+115942	46	mix	VgRk	3	71	A	P  Q	false	false	true	61615	62278
+115943	46	mix	VgRk	3	72	B	images/39_50_R_k.jpg	true	true	true	58759	62990
+115944	46	mix	VgRk	3	73	B	images/1_50_k.jpg	false	false	true	62991	64142
+115945	46	mix	VgRk	3	74	B	images/13_50_R_k.jpg	true	true	true	64144	64782
+115946	46	mix	VgRk	3	75	B	images/25_50_k.jpg	false	false	true	64783	65806
+115947	46	mix	VgRk	3	76	A	R  N	true	true	true	62279	66446
+115948	46	mix	VgRk	3	77	A	R  T	false	false	true	66447	67039
+115949	46	mix	VgRk	3	78	A	V  N	false	false	true	67039	67950
+115950	46	mix	VgRk	3	79	A	Q  P	false	false	true	67951	68614
+115951	46	mix	VgRk	3	80	B	images/25_50_R_k.jpg	true	true	true	65807	69670
+115952	46	mix	VgRk	3	81	B	images/39_50_R_k.jpg	true	true	true	69671	70208
+115953	46	mix	VgRk	3	82	B	images/39_50_k.jpg	false	false	true	70208	70855
+115954	46	mix	VgRk	3	83	B	images/1_50_R_k.jpg	true	true	true	70856	71478
+115955	46	mix	VgRk	3	84	A	P  S	true	true	true	68615	72007
+115956	46	mix	VgRk	3	85	A	S  F	false	false	true	72008	72558
+115957	46	mix	VgRk	3	86	A	P  Y	false	false	true	72559	73334
+115958	46	mix	VgRk	3	87	A	N  R	true	true	true	73335	74078
+115959	46	mix	VgRk	3	88	B	images/25_50_k.jpg	false	false	true	71479	75670
+115960	46	mix	VgRk	3	89	B	images/13_50_R_k.jpg	true	true	true	75671	76150
+115961	46	mix	VgRk	3	90	B	images/25_50_R_k.jpg	true	true	true	76151	76662
+115962	46	mix	VgRk	3	91	B	images/13_50_R_k.jpg	true	true	true	76662	77342
+115963	46	mix	VgRk	3	92	A	H  S	false	false	true	74079	78006
+115964	46	mix	VgRk	3	93	A	S  P	true	true	true	78006	78542
+115965	46	mix	VgRk	3	94	A	G  R	false	false	true	78543	79374
+115966	46	mix	VgRk	3	95	A	K  N	false	false	true	79375	79990
+115967	46	mix	VgRk	3	96	B	images/1_50_k.jpg	false	false	true	77343	83095
+115968	46	mix	VgRk	3	97	B	images/39_50_R_k.jpg	true	true	true	83096	83582
+115969	46	mix	VgRk	3	98	B	images/13_50_k.jpg	false	false	true	83582	84182
+115970	46	mix	VgRk	3	99	B	images/39_50_k.jpg	false	false	true	84182	84782
+115971	46	mix	VgRk	3	100	A	K  P	false	false	true	79990	85302
+115972	46	mix	VgRk	3	101	A	D  P	false	false	true	85303	85782
+115973	46	mix	VgRk	3	102	A	R  N	true	true	true	85782	86438
+115974	46	mix	VgRk	3	103	A	R  Y	false	false	true	86439	87038
+115975	46	mix	VgRk	3	104	B	images/13_50_k.jpg	false	false	true	84782	88238
+115976	46	mix	VgRk	3	105	B	images/25_50_k.jpg	false	false	true	88238	88774
+115977	46	mix	VgRk	3	106	B	images/1_50_k.jpg	false	false	true	88774	89374
+115978	46	mix	VgRk	3	107	B	images/25_50_R_k.jpg	true	true	true	89374	89878
+115979	46	mix	VgRk	3	108	A	P  F	false	false	true	87038	91232
+115980	46	mix	VgRk	3	109	A	N  R	true	true	true	91233	91934
+115981	46	mix	VgRk	3	110	A	H  R	false	false	true	91935	92486
+115982	46	mix	VgRk	3	111	A	P  S	true	true	true	92486	93054
+115983	46	mix	VgRk	3	112	B	images/1_50_R_k.jpg	true	true	true	89878	93566
+115984	46	mix	VgRk	3	113	B	images/25_50_R_k.jpg	true	true	true	93567	94486
+115985	46	mix	VgRk	3	114	B	images/1_50_R_k.jpg	true	true	true	94486	95062
+115986	46	mix	VgRk	3	115	B	images/13_50_R_k.jpg	true	true	true	95062	95654
+115987	46	mix	VgRk	3	116	A	D  S	false	false	true	93054	96190
+115988	46	mix	VgRk	3	117	A	R  N	true	true	true	96190	96982
+115989	46	mix	VgRk	3	118	A	P  S	true	true	true	96983	97542
+115990	46	mix	VgRk	3	119	A	R  N	true	true	true	97542	98199
+115991	46	mix	VgRk	3	120	B	images/25_50_k.jpg	false	false	true	95654	99701
+115992	46	mix	VgRk	3	121	B	images/39_50_R_k.jpg	true	true	true	99702	100237
+115993	46	mix	VgRk	3	122	B	images/39_50_k.jpg	false	false	true	100238	100885
+115994	46	mix	VgRk	3	123	B	images/13_50_k.jpg	false	false	true	100886	101877
+115995	46	mix	VgRk	3	124	A	P  S	true	true	true	98199	104501
+115996	46	mix	VgRk	3	125	A	N  R	true	true	true	104502	105182
+115997	46	mix	VgRk	3	126	A	R  W	false	false	true	105183	105813
+115998	46	mix	VgRk	3	127	A	N  D	false	false	true	105815	106509
+115999	46	mix	VgRk	3	128	B	images/39_50_k.jpg	false	false	true	101878	107389
+116000	46	mix	VgRk	3	129	B	images/13_50_k.jpg	false	false	true	107390	107949
+116001	46	mix	VgRk	3	130	B	images/25_50_k.jpg	false	false	true	107950	108573
+116002	46	mix	VgRk	3	131	B	images/13_50_R_k.jpg	true	true	true	108574	109093
+116003	46	mix	VgRk	3	132	A	N  M	false	false	true	106510	112485
+116004	46	mix	VgRk	3	133	A	C  P	false	false	true	112486	113181
+116005	46	mix	VgRk	3	134	A	R  N	true	true	true	113182	113845
+116006	46	mix	VgRk	3	135	A	N  R	true	true	true	113846	114357
+116007	46	mix	VgRk	3	136	B	images/1_50_k.jpg	false	false	true	109094	116101
+116008	46	mix	VgRk	3	137	B	images/13_50_k.jpg	false	false	true	116102	116685
+116009	46	mix	VgRk	3	138	B	images/1_50_R_k.jpg	true	true	true	116686	117221
+116010	46	mix	VgRk	3	139	B	images/13_50_R_k.jpg	true	true	true	117222	117711
+116011	46	mix	VgRk	3	140	A	K  P	false	false	true	114358	118533
+116012	46	mix	VgRk	3	141	A	P  S	true	true	true	118534	119213
+116013	46	mix	VgRk	3	142	A	R  N	true	true	true	119214	119773
+116014	46	mix	VkRg	3	1	A	rimages/4a_z.png	true	true	true	4	2758
+116015	46	mix	VkRg	3	2	A	rimages/3d_z.png	false	false	true	2759	3341
+116016	46	mix	VkRg	3	3	A	rimages/5a_z.png	false	false	true	3341	3957
+116017	46	mix	VkRg	3	4	A	rimages/3c_z.png	false	false	true	3957	4869
+116018	46	mix	VkRg	3	5	A	rimages/4d_z.png	false	false	true	4869	6236
+116019	46	mix	VkRg	3	6	A	rimages/5c_z.png	false	false	true	6237	7332
+116020	46	mix	VkRg	3	7	A	rimages/6a_z.png	true	true	true	7333	8140
+116021	46	mix	VkRg	3	8	B	2  9	false	false	true	4	9684
+116022	46	mix	VkRg	3	9	B	3  8	false	false	true	9685	10580
+116023	46	mix	VkRg	3	10	B	7  9	true	true	true	10581	11196
+116024	46	mix	VkRg	3	11	B	2  9	false	false	true	11197	12492
+116025	46	mix	VkRg	3	12	B	6  8	true	true	true	12493	13060
+116026	46	mix	VkRg	3	13	B	4  7	false	false	true	13061	14356
+116027	46	mix	VkRg	3	14	B	2  9	false	false	true	14357	15364
+116028	46	mix	VkRg	3	15	B	4  7	false	false	true	15365	16308
+116029	46	mix	VkRg	3	16	A	rimages/4c_z_2.png	true	true	true	8141	20468
+116030	46	mix	VkRg	3	17	A	rimages/3a_z.png	false	false	true	20469	21188
+116031	46	mix	VkRg	3	18	A	rimages/6a_z.png	true	true	true	21189	21780
+116032	46	mix	VkRg	3	19	A	rimages/6b_z.png	false	false	true	21781	22644
+116033	46	mix	VkRg	3	20	A	rimages/4c_z_2.png	true	true	true	22645	23668
+116034	46	mix	VkRg	3	21	B	3  5	true	true	true	16309	26892
+116035	46	mix	VkRg	3	22	B	2  9	false	false	true	26893	27452
+116036	46	mix	VkRg	3	23	B	6  8	true	true	true	27453	27940
+116037	46	mix	VkRg	3	24	B	4  7	false	false	true	27941	28524
+116038	46	mix	VkRg	3	25	A	rimages/5c_z.png	false	false	true	23669	29908
+116039	46	mix	VkRg	3	26	A	rimages/4a_z.png	true	true	true	29909	30812
+116040	46	mix	VkRg	3	27	A	rimages/4c_z_2.png	true	true	true	30813	31748
+116041	46	mix	VkRg	3	28	A	rimages/6a_z.png	true	true	true	31749	32532
+116042	46	mix	VkRg	3	29	A	rimages/4c_z_2.png	true	true	true	32535	35037
+116043	46	mix	VkRg	3	30	B	2  9	false	false	true	28525	36420
+116044	46	mix	VkRg	3	31	B	4  7	false	false	true	36423	36996
+116045	46	mix	VkRg	3	32	B	2  9	false	false	true	36997	37676
+116046	46	mix	VkRg	3	33	B	3  8	false	false	true	37676	38316
+116047	46	mix	VkRg	3	34	B	2  4	true	true	true	38316	38836
+116048	46	mix	VkRg	3	35	A	rimages/4b_z.png	false	false	true	35038	40180
+116049	46	mix	VkRg	3	36	A	rimages/4a_z.png	true	true	true	40180	41044
+116050	46	mix	VkRg	3	37	A	rimages/6a_z.png	true	true	true	41044	41596
+116051	46	mix	VkRg	3	38	A	rimages/6b_z.png	false	false	true	41596	42324
+116052	46	mix	VkRg	3	39	B	5  6	false	false	true	38836	46324
+116053	46	mix	VkRg	3	40	B	6  8	true	true	true	46324	46964
+116054	46	mix	VkRg	3	41	B	2  9	false	false	true	46965	47548
+116055	46	mix	VkRg	3	42	B	7  9	true	true	true	47548	48100
+116056	46	mix	VkRg	3	43	B	3  5	true	true	true	48100	48692
+116057	46	mix	VkRg	3	44	A	rimages/3b_z.png	false	false	true	42324	49700
+116058	46	mix	VkRg	3	45	A	rimages/4c_z_2.png	true	true	true	49700	50420
+116059	46	mix	VkRg	3	46	A	rimages/3d_z.png	false	false	true	50420	51093
+116060	46	mix	VkRg	3	47	A	rimages/4d_z.png	false	false	true	51094	51796
+116061	46	mix	VkRg	3	48	A	rimages/6d_z.png	false	false	true	51796	52444
+116062	46	mix	VkRg	3	49	A	rimages/3a_z.png	false	false	true	52444	53580
+116063	46	mix	VkRg	3	50	B	3  8	false	false	true	48692	55228
+116064	46	mix	VkRg	3	51	B	2  9	false	false	true	55228	55796
+116065	46	mix	VkRg	3	52	B	3  8	false	false	true	55797	56316
+116066	46	mix	VkRg	3	53	B	2  9	false	false	true	56316	57004
+116067	46	mix	VkRg	3	54	B	2  4	true	true	true	57004	57516
+116068	46	mix	VkRg	3	55	A	rimages/6e_z.png	false	false	true	53581	58587
+116069	46	mix	VkRg	3	56	A	rimages/4a_z.png	true	true	true	58590	59484
+116070	46	mix	VkRg	3	57	A	rimages/4c_z_2.png	true	true	true	59484	60166
+116071	46	mix	VkRg	3	58	A	rimages/4a_z.png	true	true	true	60166	60979
+116072	46	mix	VkRg	3	59	A	rimages/5c_z.png	false	false	true	60980	61635
+116073	46	mix	VkRg	3	60	A	rimages/6a_z.png	true	true	true	61636	62347
+116074	46	mix	VkRg	3	61	B	5  6	false	false	true	57516	64595
+116075	46	mix	VkRg	3	62	B	7  9	true	true	true	64596	65477
+116076	46	mix	VkRg	3	63	B	3  8	false	false	true	65477	66027
+116077	46	mix	VkRg	3	64	B	3  5	true	true	true	66028	66547
+116078	46	mix	VkRg	3	65	B	7  9	true	true	true	66548	67219
+116079	46	mix	VkRg	3	66	A	rimages/5a_z.png	false	false	true	62348	68115
+116080	46	mix	VkRg	3	67	A	rimages/4c_z_2.png	true	true	true	68116	68755
+116081	46	mix	VkRg	3	68	A	rimages/5c_z.png	false	false	true	68756	69475
+116082	46	mix	VkRg	3	69	A	rimages/5a_z.png	false	false	true	69476	70323
+116083	46	mix	VkRg	3	70	A	rimages/6c_z.png	false	false	true	70324	71171
+116084	46	mix	VkRg	3	71	A	rimages/6d_z.png	false	false	true	71172	72244
+116085	46	mix	VkRg	3	72	A	rimages/3d_z.png	false	false	true	72245	73547
+116086	46	mix	VkRg	3	73	B	4  7	false	false	true	67220	74995
+116087	46	mix	VkRg	3	74	B	6  8	true	true	true	74996	75539
+116088	46	mix	VkRg	3	75	B	3  8	false	false	true	75540	76139
+116089	46	mix	VkRg	3	76	B	7  9	true	true	true	76140	76699
+116090	46	mix	VkRg	3	77	B	3  5	true	true	true	76700	77275
+116091	46	mix	VkRg	3	78	B	2  4	true	true	true	77276	77851
+116092	46	mix	VkRg	3	79	B	6  8	true	true	true	77852	79379
+116093	46	mix	VkRg	3	80	A	rimages/4a_z.png	true	true	true	73548	80459
+116094	46	mix	VkRg	3	81	A	rimages/5c_z.png	false	false	true	80460	81035
+116095	46	mix	VkRg	3	82	A	rimages/4c_z_2.png	true	true	true	81036	82691
+116096	46	mix	VkRg	3	83	A	rimages/4a_z.png	true	true	true	82692	83499
+116097	46	mix	VkRg	3	84	B	3  5	true	true	true	79380	84963
+116098	46	mix	VkRg	3	85	B	4  7	false	false	true	84964	85531
+116099	46	mix	VkRg	3	86	B	2  4	true	true	true	85532	86059
+116100	46	mix	VkRg	3	87	B	5  6	false	false	true	86060	86699
+116101	46	mix	VkRg	3	88	B	4  7	false	false	true	86700	87707
+116102	46	mix	VkRg	3	89	A	rimages/4c_z_2.png	true	true	true	83500	88243
+116103	46	mix	VkRg	3	90	A	rimages/4a_z.png	true	true	true	88244	88923
+116104	46	mix	VkRg	3	91	A	rimages/6a_z.png	true	true	true	88924	89547
+116105	46	mix	VkRg	3	92	A	rimages/3d_z.png	false	false	true	89548	90435
+116106	46	mix	VkRg	3	93	A	rimages/4c_z_2.png	true	true	true	90436	91291
+116107	46	mix	VkRg	3	94	B	3  8	false	false	true	87708	92323
+116108	46	mix	VkRg	3	95	B	6  8	true	true	true	92324	92923
+116109	46	mix	VkRg	3	96	B	5  6	false	false	true	92923	93486
+116110	46	mix	VkRg	3	97	B	3  8	false	true	false	93486	94067
+116111	46	mix	VkRg	3	98	B	7  9	true	true	true	94067	95611
+116112	46	mix	VkRg	3	99	A	rimages/4a_z.png	true	true	true	91292	96059
+116113	46	mix	VkRg	3	100	A	rimages/6a_z.png	true	true	true	96060	96715
+116114	46	mix	VkRg	3	101	A	rimages/3a_z.png	false	false	true	96716	97379
+116115	46	mix	VkRg	3	102	A	rimages/6d_z.png	false	false	true	97379	98035
+116116	46	mix	VkRg	3	103	A	rimages/4a_z.png	true	true	true	98035	98635
+116117	46	mix	VkRg	3	104	B	4  7	false	false	true	95611	101083
+116118	46	mix	VkRg	3	105	B	5  6	false	false	true	101083	101939
+116119	46	mix	VkRg	3	106	B	2  4	true	true	true	101939	102547
+116120	46	mix	VkRg	3	107	B	3  8	false	false	true	102548	103283
+116121	46	mix	VkRg	3	108	B	3  5	true	true	true	103283	104019
+116122	46	mix	VkRg	3	109	A	rimages/3c_z.png	false	true	false	98635	105155
+116123	46	mix	VkRg	3	110	A	rimages/6a_z.png	true	true	true	105155	105907
+116124	46	mix	VkRg	3	111	A	rimages/3a_z.png	false	false	true	105907	106595
+116125	46	mix	VkRg	3	112	A	rimages/4c_z_2.png	true	true	true	106596	107459
+116126	46	mix	VkRg	3	113	A	rimages/4a_z.png	true	true	true	107459	109219
+116127	46	mix	VkRg	3	114	B	6  8	true	true	true	104019	110307
+116128	46	mix	VkRg	3	115	B	2  9	false	false	true	110307	110883
+116129	46	mix	VkRg	3	116	B	4  7	false	false	true	110883	111468
+116130	46	mix	VkRg	3	117	B	7  9	true	true	true	111469	112019
+116131	46	mix	VkRg	3	118	B	6  8	true	true	true	112019	112539
+116132	46	mix	VkRg	3	119	A	rimages/6b_z.png	false	false	true	109219	113251
+116133	46	mix	VkRg	3	120	A	rimages/3b_z.png	false	false	true	113251	114123
+116134	46	mix	VkRg	3	121	A	rimages/4c_z_2.png	true	true	true	114123	115171
+116135	46	mix	VkRg	3	122	A	rimages/6c_z.png	false	false	true	115171	115923
+116136	46	mix	VkRg	3	123	A	rimages/5c_z.png	false	false	true	115923	116691
+116137	46	mix	VkRg	3	124	B	2  9	false	false	true	112539	119698
+116519	46	mix	VgRk	3	1	A	H  Q	true	true	true	19	806
+116520	46	mix	VgRk	3	2	A	H  F	false	false	true	807	1358
+116521	46	mix	VgRk	3	3	A	Q  H	true	true	true	1358	2078
+116522	46	mix	VgRk	3	4	A	N  X	true	true	true	2079	2590
+116523	46	mix	VgRk	3	5	B	images/25_50_k.jpg	false	false	true	19	4422
+116524	46	mix	VgRk	3	6	B	images/13_50_k.jpg	false	false	true	4423	4941
+116525	46	mix	VgRk	3	7	B	images/25_50_R_k.jpg	true	true	true	4942	5461
+116526	46	mix	VgRk	3	8	B	images/39_50_k.jpg	false	false	true	5462	5997
+116527	46	mix	VgRk	3	9	A	H  W	false	false	true	2590	6645
+116528	46	mix	VgRk	3	10	A	X  N	true	true	true	6646	7461
+116529	46	mix	VgRk	3	11	A	N  X	true	true	true	7462	8054
+116530	46	mix	VgRk	3	12	A	X  N	true	true	true	8054	8624
+116531	46	mix	VgRk	3	13	B	images/1_50_R_k.jpg	true	true	true	5998	10190
+116532	46	mix	VgRk	3	14	B	images/39_50_R_k.jpg	true	true	true	10191	10685
+116533	46	mix	VgRk	3	15	B	images/25_50_k.jpg	false	false	true	10686	11317
+116534	46	mix	VgRk	3	16	B	images/1_50_R_k.jpg	true	true	true	11318	11813
+116535	46	mix	VgRk	3	17	A	Q  H	true	true	true	8624	12566
+116536	46	mix	VgRk	3	18	A	N  R	false	false	true	12567	13503
+116537	46	mix	VgRk	3	19	A	Q  D	false	false	true	13503	14669
+116538	46	mix	VgRk	3	20	A	X  J	false	false	true	14670	15405
+116539	46	mix	VgRk	3	21	B	images/13_50_R_k.jpg	true	true	true	11814	16493
+116540	46	mix	VgRk	3	22	B	images/1_50_k.jpg	false	false	true	16494	17149
+116541	46	mix	VgRk	3	23	B	images/1_50_R_k.jpg	true	true	true	17150	17701
+116542	46	mix	VgRk	3	24	B	images/13_50_k.jpg	false	false	true	17702	18365
+116543	46	mix	VgRk	3	25	A	H  Q	true	true	true	15406	19445
+116544	46	mix	VgRk	3	26	A	R  H	false	false	true	19446	20389
+116545	46	mix	VgRk	3	27	A	H  R	false	false	true	20390	21109
+116546	46	mix	VgRk	3	28	A	X  Y	false	false	true	21110	21805
+116547	46	mix	VgRk	3	29	B	images/1_50_k.jpg	false	false	true	18366	23222
+116548	46	mix	VgRk	3	30	B	images/39_50_R_k.jpg	true	true	true	23223	23717
+116549	46	mix	VgRk	3	31	B	images/13_50_k.jpg	false	false	true	23718	24245
+116550	46	mix	VgRk	3	32	B	images/25_50_R_k.jpg	true	true	true	24246	24789
+116551	46	mix	VgRk	3	33	A	T  X	false	false	true	21806	25925
+116552	46	mix	VgRk	3	34	A	L  N	false	false	true	25926	26493
+116553	46	mix	VgRk	3	35	A	Q  H	true	true	true	26494	27327
+116554	46	mix	VgRk	3	36	A	S  X	false	false	true	27327	30029
+116555	46	mix	VgRk	3	37	B	images/39_50_k.jpg	false	false	true	24790	31575
+116556	46	mix	VgRk	3	38	B	images/39_50_R_k.jpg	true	true	true	31575	32069
+116557	46	mix	VgRk	3	39	B	images/25_50_R_k.jpg	true	true	true	32070	32565
+116558	46	mix	VgRk	3	40	B	images/39_50_R_k.jpg	true	true	true	32566	33101
+116559	46	mix	VgRk	3	41	A	H  Q	true	true	true	30031	33557
+116560	46	mix	VgRk	3	42	A	X  Y	false	false	true	33559	34205
+116561	46	mix	VgRk	3	43	A	Q  H	true	true	true	34206	34797
+116562	46	mix	VgRk	3	44	A	N  X	true	true	true	34798	35589
+116563	46	mix	VgRk	3	45	B	images/25_50_R_k.jpg	true	true	true	33102	37933
+116564	46	mix	VgRk	3	46	B	images/39_50_R_k.jpg	true	true	true	37934	38487
+116565	46	mix	VgRk	3	47	B	images/1_50_k.jpg	false	false	true	38488	39165
+116566	46	mix	VgRk	3	48	B	images/25_50_R_k.jpg	true	true	true	39166	39717
+116567	46	mix	VgRk	3	49	A	X  N	true	true	true	35590	42605
+116568	46	mix	VgRk	3	50	A	N  X	true	true	true	42606	43117
+116569	46	mix	VgRk	3	51	A	J  H	false	false	true	43118	43765
+116570	46	mix	VgRk	3	52	A	X  N	true	true	true	43765	44429
+116571	46	mix	VgRk	3	53	B	images/39_50_k.jpg	false	false	true	39718	45813
+116572	46	mix	VgRk	3	54	B	images/13_50_k.jpg	false	false	true	45814	46269
+116573	46	mix	VgRk	3	55	B	images/39_50_R_k.jpg	true	true	true	46270	46973
+116574	46	mix	VgRk	3	56	B	images/25_50_R_k.jpg	true	true	true	46974	47437
+116575	46	mix	VgRk	3	57	B	images/39_50_k.jpg	false	false	true	47437	48125
+116576	46	mix	VgRk	3	58	A	N  X	true	true	true	44429	53141
+116577	46	mix	VgRk	3	59	A	X  N	true	true	true	53141	53765
+116578	46	mix	VgRk	3	60	A	N  X	true	true	true	53765	54269
+116579	46	mix	VgRk	3	61	A	H  G	false	false	true	54269	55005
+116580	46	mix	VgRk	3	62	B	images/25_50_k.jpg	false	false	true	48125	56005
+116581	46	mix	VgRk	3	63	B	images/13_50_R_k.jpg	true	true	true	56006	56485
+116582	46	mix	VgRk	3	64	B	images/1_50_k.jpg	false	false	true	56485	57165
+116583	46	mix	VgRk	3	65	B	images/25_50_R_k.jpg	true	true	true	57165	57725
+116584	46	mix	VgRk	3	66	A	K  N	false	false	true	55005	60862
+116585	46	mix	VgRk	3	67	A	J  X	false	false	true	60863	61492
+116586	46	mix	VgRk	3	68	A	X  N	true	true	true	61493	62124
+116587	46	mix	VgRk	3	69	A	N  X	true	true	true	62125	62644
+116588	46	mix	VgRk	3	70	B	images/13_50_R_k.jpg	true	true	true	57725	63428
+116589	46	mix	VgRk	3	71	B	images/25_50_k.jpg	false	false	true	63429	64540
+116590	46	mix	VgRk	3	72	B	images/13_50_k.jpg	false	false	true	64541	65116
+116591	46	mix	VgRk	3	73	B	images/39_50_k.jpg	false	false	true	65117	65676
+116592	46	mix	VgRk	3	74	A	G  Q	false	false	true	62645	66364
+116593	46	mix	VgRk	3	75	A	X  N	true	true	true	66365	67101
+116594	46	mix	VgRk	3	76	A	L  Q	false	false	true	67101	67964
+116595	46	mix	VgRk	3	77	A	N  R	false	false	true	67965	68812
+116596	46	mix	VgRk	3	78	B	images/1_50_k.jpg	false	false	true	65677	69692
+116597	46	mix	VgRk	3	79	B	images/39_50_R_k.jpg	true	true	true	69693	70156
+116598	46	mix	VgRk	3	80	B	images/39_50_k.jpg	false	false	true	70157	70709
+116599	46	mix	VgRk	3	81	B	images/25_50_R_k.jpg	true	true	true	70709	71357
+116600	46	mix	VgRk	3	82	A	H  J	false	false	true	68813	73508
+116601	46	mix	VgRk	3	83	A	N  X	true	true	true	73509	74252
+116602	46	mix	VgRk	3	84	A	P  Q	false	false	true	74255	75004
+116603	46	mix	VgRk	3	85	A	X  N	true	true	true	75005	75468
+116604	46	mix	VgRk	3	86	B	images/25_50_k.jpg	false	false	true	71357	77108
+116605	46	mix	VgRk	3	87	B	images/1_50_k.jpg	false	false	true	77109	77676
+116606	46	mix	VgRk	3	88	B	images/25_50_k.jpg	false	false	true	77677	78260
+116607	46	mix	VgRk	3	89	B	images/1_50_R_k.jpg	true	true	true	78261	78756
+116608	46	mix	VgRk	3	90	A	Q  H	true	true	true	75469	79853
+116609	46	mix	VgRk	3	91	A	W  X	false	false	true	79854	80404
+116610	46	mix	VgRk	3	92	A	X  N	true	true	true	80405	80948
+116611	46	mix	VgRk	3	93	A	Q  H	true	true	true	80949	81653
+116612	46	mix	VgRk	3	94	B	images/25_50_R_k.jpg	true	true	true	78757	83468
+116613	46	mix	VgRk	3	95	B	images/1_50_k.jpg	false	false	true	83469	83972
+116614	46	mix	VgRk	3	96	B	images/39_50_R_k.jpg	true	true	true	83973	84484
+116615	46	mix	VgRk	3	97	B	images/13_50_R_k.jpg	true	true	true	84485	85110
+116616	46	mix	VgRk	3	98	A	H  B	false	false	true	81654	85940
+116617	46	mix	VgRk	3	99	A	K  Q	false	false	true	85941	86549
+116618	46	mix	VgRk	3	100	A	X  N	true	true	true	86550	87100
+116619	46	mix	VgRk	3	101	A	H  Q	true	true	true	87101	87956
+116620	46	mix	VgRk	3	102	B	images/1_50_R_k.jpg	true	true	true	85111	89748
+116621	46	mix	VgRk	3	103	B	images/25_50_k.jpg	false	false	true	89749	90276
+116622	46	mix	VgRk	3	104	B	images/13_50_k.jpg	false	false	true	90277	90852
+116623	46	mix	VgRk	3	105	B	images/25_50_k.jpg	false	false	true	90853	91412
+116624	46	mix	VgRk	3	106	B	images/39_50_R_k.jpg	true	true	true	91413	92212
+116625	46	mix	VgRk	3	107	A	N  X	true	true	true	87957	92852
+116626	46	mix	VgRk	3	108	A	W  H	false	false	true	92853	93516
+116627	46	mix	VgRk	3	109	A	B  Q	false	false	true	93516	94852
+116628	46	mix	VgRk	3	110	A	G  H	false	false	true	94853	96460
+116629	46	mix	VgRk	3	111	B	images/25_50_R_k.jpg	true	true	true	92213	98700
+116630	46	mix	VgRk	3	112	B	images/39_50_k.jpg	false	false	true	98701	99180
+116631	46	mix	VgRk	3	113	B	images/1_50_R_k.jpg	true	true	true	99180	99676
+116632	46	mix	VgRk	3	114	B	images/1_50_k.jpg	false	false	true	99676	100220
+116633	46	mix	VgRk	3	115	B	images/25_50_R_k.jpg	true	true	true	100221	100756
+116634	46	mix	VgRk	3	116	A	G  Q	false	false	true	96460	101900
+116635	46	mix	VgRk	3	117	A	X  N	true	true	true	101900	102508
+116636	46	mix	VgRk	3	118	A	C  H	false	false	true	102508	103156
+116637	46	mix	VgRk	3	119	A	R  N	false	false	true	103156	104036
+116638	46	mix	VgRk	3	120	B	images/1_50_R_k.jpg	true	true	true	100756	105604
+116639	46	mix	VgRk	3	121	B	images/25_50_R_k.jpg	true	true	true	105605	106212
+116640	46	mix	VgRk	3	122	B	images/13_50_k.jpg	false	false	true	106212	106724
+116641	46	mix	VgRk	3	123	B	images/13_50_R_k.jpg	true	true	true	106724	107204
+116642	46	mix	VgRk	3	124	A	N  X	true	true	true	104037	107748
+116643	46	mix	VgRk	3	125	A	H  Q	true	true	true	107748	108404
+116644	46	mix	VgRk	3	126	A	N  T	false	false	true	108405	109132
+116645	46	mix	VgRk	3	127	A	N  B	false	false	true	109132	109764
+116646	46	mix	VgRk	3	128	B	images/39_50_k.jpg	false	false	true	107204	111517
+116647	46	mix	VgRk	3	129	B	images/1_50_R_k.jpg	true	true	true	111518	112004
+116648	46	mix	VgRk	3	130	B	images/25_50_R_k.jpg	true	true	true	112004	112460
+116649	46	mix	VgRk	3	131	B	images/39_50_R_k.jpg	true	true	true	112460	112980
+116650	46	mix	VgRk	3	132	A	Q  H	true	true	true	109764	113956
+116651	46	mix	VgRk	3	133	A	N  X	true	true	true	113956	114531
+116652	46	mix	VgRk	3	134	A	Q  H	true	true	true	114532	114995
+116653	46	mix	VgRk	3	135	A	R  H	false	false	true	114996	115563
+116654	46	mix	VgRk	3	136	B	images/13_50_R_k.jpg	true	true	true	112980	116611
+116655	46	mix	VgRk	3	137	B	images/25_50_R_k.jpg	true	true	true	116612	117116
+116656	46	mix	VgRk	3	138	B	images/13_50_k.jpg	false	false	true	117116	117667
+116657	46	mix	VgRk	3	139	B	images/39_50_R_k.jpg	true	true	true	117668	118107
+116658	46	mix	VgRk	3	140	A	X  N	true	true	true	115564	118645
+116659	46	mix	VgRk	3	141	A	H  F	false	true	false	118646	119221
+116660	46	mix	VgRk	3	142	A	H  Q	true	true	true	119222	119916
+116661	46	mix	VkRg	3	1	A	rimages/3b_z.png	true	true	true	14	2725
+116662	46	mix	VkRg	3	2	A	rimages/3d_z.png	true	true	true	2725	3349
+116663	46	mix	VkRg	3	3	A	rimages/4a_z.png	false	false	true	3349	4046
+116664	46	mix	VkRg	3	4	A	rimages/4b_z.png	false	false	true	4047	5061
+116665	46	mix	VkRg	3	5	B	2  9	false	false	true	14	6855
+116666	46	mix	VkRg	3	6	B	7  9	true	true	true	6856	7477
+116667	46	mix	VkRg	3	7	B	4  7	false	false	true	7477	8013
+116668	46	mix	VkRg	3	8	B	6  8	true	true	true	8013	8493
+116669	46	mix	VkRg	3	9	A	rimages/5a_z.png	false	false	true	5061	8949
+116670	46	mix	VkRg	3	10	A	rimages/5e_z.png	true	true	true	8949	9693
+116671	46	mix	VkRg	3	11	A	rimages/3b_z.png	true	true	true	9693	10293
+116672	46	mix	VkRg	3	12	A	rimages/3d_z.png	true	true	true	10293	10909
+116673	46	mix	VkRg	3	13	B	7  9	true	true	true	8493	12141
+116674	46	mix	VkRg	3	14	B	3  5	true	true	true	12141	12773
+116675	46	mix	VkRg	3	15	B	2  9	false	false	true	12773	13445
+116676	46	mix	VkRg	3	16	B	7  9	true	true	true	13445	13965
+116677	46	mix	VkRg	3	17	A	rimages/4d_z.png	false	false	true	10909	14589
+116678	46	mix	VkRg	3	18	A	rimages/3b_z.png	true	true	true	14589	15221
+116679	46	mix	VkRg	3	19	A	rimages/5e_z.png	true	true	true	15221	16005
+116680	46	mix	VkRg	3	20	A	rimages/6b_z.png	false	false	true	16005	16647
+116681	46	mix	VkRg	3	21	B	3  8	false	false	true	13965	17871
+116682	46	mix	VkRg	3	22	B	3  5	true	true	true	17871	18447
+116683	46	mix	VkRg	3	23	B	7  9	true	true	true	18447	19028
+116684	46	mix	VkRg	3	24	B	3  5	true	true	true	19029	19572
+116685	46	mix	VkRg	3	25	A	rimages/3d_z.png	true	true	true	16647	20013
+116686	46	mix	VkRg	3	26	A	rimages/5e_z.png	true	true	true	20014	20734
+116687	46	mix	VkRg	3	27	A	rimages/3a_z.png	false	false	true	20734	21428
+116688	46	mix	VkRg	3	28	A	rimages/4e_z.png	false	false	true	21429	22102
+116689	46	mix	VkRg	3	29	B	4  7	false	false	true	19573	23156
+116690	46	mix	VkRg	3	30	B	2  4	true	true	true	23157	23644
+116691	46	mix	VkRg	3	31	B	5  6	false	false	true	23645	24308
+116692	46	mix	VkRg	3	32	B	7  9	true	true	true	24309	24933
+116693	46	mix	VkRg	3	33	A	rimages/5c_z.png	false	false	true	22103	26404
+116694	46	mix	VkRg	3	34	A	rimages/6d_z.png	false	false	true	26405	27020
+116695	46	mix	VkRg	3	35	A	rimages/3b_z.png	true	true	true	27021	27684
+116696	46	mix	VkRg	3	36	A	rimages/5a_z.png	false	false	true	27685	28420
+116697	46	mix	VkRg	3	37	B	3  8	false	false	true	24933	29796
+116698	46	mix	VkRg	3	38	B	4  7	false	false	true	29797	30383
+116699	46	mix	VkRg	3	39	B	5  6	false	false	true	30383	31188
+116700	46	mix	VkRg	3	40	B	3  8	false	false	true	31189	31900
+116701	46	mix	VkRg	3	41	A	rimages/3d_z.png	true	true	true	28421	32476
+116702	46	mix	VkRg	3	42	A	rimages/3b_z.png	true	true	true	32477	33124
+116703	46	mix	VkRg	3	43	A	rimages/3d_z.png	true	true	true	33125	33876
+116704	46	mix	VkRg	3	44	A	rimages/3c_z.png	false	false	true	33877	34580
+116705	46	mix	VkRg	3	45	B	5  6	false	false	true	31901	36004
+116706	46	mix	VkRg	3	46	B	6  8	true	true	true	36005	36647
+116707	46	mix	VkRg	3	47	B	3  5	true	true	true	36648	37244
+116708	46	mix	VkRg	3	48	B	2  9	false	false	true	37245	37860
+116709	46	mix	VkRg	3	49	A	rimages/4e_z.png	false	false	true	34581	38708
+116710	46	mix	VkRg	3	50	A	rimages/5a_z.png	false	false	true	38709	39420
+116711	46	mix	VkRg	3	51	A	rimages/3b_z.png	true	true	true	39421	40116
+116712	46	mix	VkRg	3	52	A	rimages/5e_z.png	true	true	true	40117	40772
+116713	46	mix	VkRg	3	53	B	7  9	true	false	false	37861	42044
+116714	46	mix	VkRg	3	54	B	3  5	true	false	false	42045	42756
+116715	46	mix	VkRg	3	55	B	6  8	true	true	true	42757	43932
+116716	46	mix	VkRg	3	56	B	3  5	true	true	true	43933	44940
+116717	46	mix	VkRg	3	57	A	rimages/4d_z.png	false	false	true	40773	46300
+116718	46	mix	VkRg	3	58	A	rimages/3d_z.png	true	true	true	46301	46868
+116719	46	mix	VkRg	3	59	A	rimages/5a_z.png	false	false	true	46868	47516
+116720	46	mix	VkRg	3	60	A	rimages/4c_z_2.png	false	false	true	47517	48293
+116721	46	mix	VkRg	3	61	B	7  9	true	true	true	44941	49644
+116722	46	mix	VkRg	3	62	B	5  6	false	false	true	49645	50252
+116723	46	mix	VkRg	3	63	B	4  7	false	false	true	50252	50924
+116724	46	mix	VkRg	3	64	B	3  5	true	true	true	50925	51468
+116725	46	mix	VkRg	3	65	A	rimages/3a_z.png	false	false	true	48294	52109
+116726	46	mix	VkRg	3	66	A	rimages/3b_z.png	true	true	true	52110	52820
+116727	46	mix	VkRg	3	67	A	rimages/5c_z.png	false	false	true	52821	53796
+116728	46	mix	VkRg	3	68	A	rimages/5e_z.png	true	false	false	53796	54452
+116729	46	mix	VkRg	3	69	B	2  4	true	true	true	51468	56092
+116730	46	mix	VkRg	3	70	B	3  5	true	true	true	56092	57028
+116731	46	mix	VkRg	3	71	B	5  6	false	false	true	57028	57604
+116732	46	mix	VkRg	3	72	B	2  4	true	true	true	57605	58116
+116733	46	mix	VkRg	3	73	A	rimages/3d_z.png	true	true	true	54452	58564
+116734	46	mix	VkRg	3	74	A	rimages/5e_z.png	true	true	true	58564	59388
+116735	46	mix	VkRg	3	75	A	rimages/3c_z.png	false	false	true	59388	60284
+116736	46	mix	VkRg	3	76	A	rimages/3a_z.png	false	false	true	60284	60980
+116737	46	mix	VkRg	3	77	B	3  5	true	true	true	58116	62116
+116738	46	mix	VkRg	3	78	B	4  7	false	false	true	62116	62628
+116739	46	mix	VkRg	3	79	B	7  9	true	true	true	62628	63276
+116740	46	mix	VkRg	3	80	B	3  5	true	true	true	63276	63852
+116741	46	mix	VkRg	3	81	A	rimages/3b_z.png	true	true	true	60980	64292
+116742	46	mix	VkRg	3	82	A	rimages/4d_z.png	false	false	true	64292	64821
+116743	46	mix	VkRg	3	83	A	rimages/5a_z.png	false	false	true	64821	65508
+116744	46	mix	VkRg	3	84	A	rimages/3e_z.png	false	false	true	65508	66484
+116745	46	mix	VkRg	3	85	A	rimages/3d_z.png	true	true	true	66485	67228
+116746	46	mix	VkRg	3	86	B	2  4	true	true	true	63853	68532
+116747	46	mix	VkRg	3	87	B	2  9	false	false	true	68532	69069
+116748	46	mix	VkRg	3	88	B	4  7	false	false	true	69070	69764
+116749	46	mix	VkRg	3	89	B	6  8	true	true	true	69764	70260
+116750	46	mix	VkRg	3	90	B	3  8	false	false	true	70260	71004
+116751	46	mix	VkRg	3	91	A	rimages/3b_z.png	true	true	true	67228	71628
+116752	46	mix	VkRg	3	92	A	rimages/4c_z_2.png	false	false	true	71628	72204
+116753	46	mix	VkRg	3	93	A	rimages/5c_z.png	false	false	true	72205	72916
+116754	46	mix	VkRg	3	94	A	rimages/5e_z.png	true	true	true	72917	73627
+116755	46	mix	VkRg	3	95	B	5  6	false	false	true	71006	75299
+116756	46	mix	VkRg	3	96	B	2  4	true	true	true	75300	76035
+116757	46	mix	VkRg	3	97	B	7  9	true	true	true	76036	76667
+116758	46	mix	VkRg	3	98	B	2  9	false	false	true	76668	77323
+116759	46	mix	VkRg	3	99	A	rimages/6c_z.png	false	false	true	73628	78051
+116760	46	mix	VkRg	3	100	A	rimages/3d_z.png	true	true	true	78052	78707
+116761	46	mix	VkRg	3	101	A	rimages/4a_z.png	false	false	true	78708	79819
+116762	46	mix	VkRg	3	102	A	rimages/5e_z.png	true	true	true	79820	80563
+116763	46	mix	VkRg	3	103	B	3  8	false	false	true	77324	83547
+116764	46	mix	VkRg	3	104	B	2  4	true	true	true	83548	84291
+116765	46	mix	VkRg	3	105	B	7  9	true	true	true	84292	84875
+116766	46	mix	VkRg	3	106	B	2  4	true	true	true	84876	85387
+116767	46	mix	VkRg	3	107	A	rimages/6a_z.png	false	false	true	80564	86171
+116768	46	mix	VkRg	3	108	A	rimages/4c_z_2.png	false	false	true	86172	87291
+116769	46	mix	VkRg	3	109	A	rimages/4a_z.png	false	true	false	87292	88275
+116770	46	mix	VkRg	3	110	A	rimages/3d_z.png	true	true	true	88276	88907
+116771	46	mix	VkRg	3	111	A	rimages/5e_z.png	true	true	true	88908	89835
+116772	46	mix	VkRg	3	112	B	3  5	true	true	true	85388	92491
+116773	46	mix	VkRg	3	113	B	2  9	false	false	true	92492	93195
+116774	46	mix	VkRg	3	114	B	3  8	false	false	true	93196	93859
+116775	46	mix	VkRg	3	115	B	7  9	true	true	true	93860	94558
+116776	46	mix	VkRg	3	116	B	5  6	false	false	true	94559	95115
+116777	46	mix	VkRg	3	117	A	rimages/3b_z.png	true	true	true	89836	95539
+116778	46	mix	VkRg	3	118	A	rimages/3a_z.png	false	false	true	95541	96291
+116779	46	mix	VkRg	3	119	A	rimages/5e_z.png	true	true	true	96292	96979
+116780	46	mix	VkRg	3	120	A	rimages/3c_z.png	false	false	true	96980	98603
+116781	46	mix	VkRg	3	121	B	2  4	true	true	true	95116	99755
+116782	46	mix	VkRg	3	122	B	4  7	false	false	true	99756	100301
+116783	46	mix	VkRg	3	123	B	5  6	false	true	false	100301	100859
+116784	46	mix	VkRg	3	124	B	3  8	false	false	true	100859	101587
+116785	46	mix	VkRg	3	125	B	3  5	true	true	true	101588	102749
+116786	46	mix	VkRg	3	126	A	rimages/3d_z.png	true	true	true	98604	103491
+116787	46	mix	VkRg	3	127	A	rimages/3b_z.png	true	true	true	103492	104163
+116788	46	mix	VkRg	3	128	A	rimages/6d_z.png	false	false	true	104163	104787
+116789	46	mix	VkRg	3	129	A	rimages/5e_z.png	true	true	true	104788	105395
+116790	46	mix	VkRg	3	130	B	2  9	false	false	true	102749	107763
+116791	46	mix	VkRg	3	131	B	6  8	true	true	true	107763	108299
+116792	46	mix	VkRg	3	132	B	5  6	false	false	true	108299	109051
+116793	46	mix	VkRg	3	133	B	3  8	false	false	true	109052	109667
+116794	46	mix	VkRg	3	134	B	2  9	false	true	false	109667	110123
+116795	46	mix	VkRg	3	135	A	rimages/4d_z.png	false	true	false	105396	111619
+116796	46	mix	VkRg	3	136	A	rimages/3a_z.png	false	false	true	111620	112259
+116797	46	mix	VkRg	3	137	A	rimages/3d_z.png	true	true	true	112259	112875
+116798	46	mix	VkRg	3	138	A	rimages/3e_z.png	false	false	true	112875	116139
+116799	46	mix	VkRg	3	139	B	3  5	true	true	true	110123	116851
+116800	46	mix	VkRg	3	140	B	6  8	true	true	true	116851	117371
+116801	46	mix	VkRg	3	141	B	3  5	true	true	true	117371	117915
+116802	46	mix	VkRg	3	142	B	6  8	true	true	true	117916	118435
+116803	46	mix	VkRg	3	143	B	3  5	true	true	true	118435	119364
+116804	46	mix	VkRg	3	144	A	rimages/3c_z.png	false	false	true	116139	119963
+258373	46	uni	UniR	3	1	A	rimages/6d_z.png	false	false	true	3	1014
+258374	46	uni	UniR	3	2	A	rimages/6c_z.png	false	false	true	1015	1856
+258375	46	uni	UniR	3	3	A	rimages/6a_z.png	true	true	true	1857	2590
+258376	46	uni	UniR	3	4	A	rimages/6d_z.png	false	false	true	2591	3302
+258377	46	uni	UniR	3	5	B	images/39_50_R_k.jpg	true	true	true	3	6566
+258378	46	uni	UniR	3	6	B	images/25_50_k.jpg	false	false	true	6567	7102
+258379	46	uni	UniR	3	7	B	images/13_50_R_k.jpg	true	true	true	7103	7606
+258380	46	uni	UniR	3	8	B	images/1_50_R_k.jpg	true	true	true	7606	8103
+258381	46	uni	UniR	3	9	A	rimages/6b_z.png	true	true	true	3303	8470
+258382	46	uni	UniR	3	10	A	rimages/4b_z.png	true	true	true	8471	9238
+258383	46	uni	UniR	3	11	A	rimages/4c_z_2.png	false	false	true	9238	9918
+258384	46	uni	UniR	3	12	A	rimages/6b_z.png	true	true	true	9918	10750
+258385	46	uni	UniR	3	13	B	images/1_50_k.jpg	false	false	true	8104	12198
+258386	46	uni	UniR	3	14	B	images/39_50_R_k.jpg	true	true	true	12199	12718
+258387	46	uni	UniR	3	15	B	images/1_50_R_k.jpg	true	true	true	12718	13198
+258388	46	uni	UniR	3	16	B	images/39_50_k.jpg	false	false	true	13199	13710
+258389	46	uni	UniR	3	17	A	rimages/6a_z.png	true	true	true	10751	14054
+258390	46	uni	UniR	3	18	A	rimages/3a_z.png	false	false	true	14054	14750
+258391	46	uni	UniR	3	19	A	rimages/3b_z.png	false	false	true	14750	15422
+258392	46	uni	UniR	3	20	A	rimages/4a_z.png	false	false	true	15422	16238
+258393	46	uni	UniR	3	21	B	images/1_50_k.jpg	false	false	true	13710	17438
+258394	46	uni	UniR	3	22	B	images/25_50_R_k.jpg	true	true	true	17438	18046
+258395	46	uni	UniR	3	23	B	images/13_50_R_k.jpg	true	true	true	18046	18550
+258396	46	uni	UniR	3	24	B	images/13_50_k.jpg	false	false	true	18550	19046
+258397	46	uni	UniR	3	25	A	rimages/6b_z.png	true	true	true	16238	19526
+258398	46	uni	UniR	3	26	A	rimages/6a_z.png	true	true	true	19526	20311
+258399	46	uni	UniR	3	27	A	rimages/4b_z.png	true	true	true	20312	21182
+258400	46	uni	UniR	3	28	A	rimages/6a_z.png	true	true	true	21182	22422
+258401	46	uni	UniR	3	29	B	images/25_50_R_k.jpg	true	true	true	19046	23814
+258402	46	uni	UniR	3	30	B	images/39_50_k.jpg	false	false	true	23814	24262
+258403	46	uni	UniR	3	31	B	images/13_50_R_k.jpg	true	false	false	24263	24718
+258404	46	uni	UniR	3	32	B	images/1_50_R_k.jpg	true	true	true	24718	25270
+258405	46	uni	UniR	3	33	A	rimages/6b_z.png	true	true	true	22422	25662
+258406	46	uni	UniR	3	34	A	rimages/3e_z.png	false	false	true	25663	26246
+258407	46	uni	UniR	3	35	A	rimages/6a_z.png	true	true	true	26246	26854
+258408	46	uni	UniR	3	36	A	rimages/5c_z.png	false	false	true	26854	27814
+258409	46	uni	UniR	3	37	B	images/1_50_k.jpg	false	false	true	25270	28958
+258410	46	uni	UniR	3	38	B	images/13_50_k.jpg	false	false	true	28959	29510
+258411	46	uni	UniR	3	39	B	images/25_50_k.jpg	false	false	true	29511	30031
+258412	46	uni	UniR	3	40	B	images/25_50_R_k.jpg	true	true	true	30032	30542
+258413	46	uni	UniR	3	41	A	rimages/4b_z.png	true	true	true	27816	31318
+258414	46	uni	UniR	3	42	A	rimages/6a_z.png	true	true	true	31318	31966
+258415	46	uni	UniR	3	43	A	rimages/3e_z.png	false	false	true	31966	32854
+258416	46	uni	UniR	3	44	A	rimages/4b_z.png	true	true	true	32854	33606
+258417	46	uni	UniR	3	45	B	images/13_50_k.jpg	false	false	true	30542	34934
+258418	46	uni	UniR	3	46	B	images/1_50_k.jpg	false	false	true	34934	35504
+258419	46	uni	UniR	3	47	B	images/1_50_R_k.jpg	true	true	true	35504	36054
+258420	46	uni	UniR	3	48	B	images/13_50_k.jpg	false	false	true	36054	36584
+258421	46	uni	UniR	3	49	A	rimages/6a_z.png	true	true	true	33606	36998
+258422	46	uni	UniR	3	50	A	rimages/6b_z.png	true	true	true	36998	37678
+258423	46	uni	UniR	3	51	A	rimages/6a_z.png	true	true	true	37678	38278
+258424	46	uni	UniR	3	52	A	rimages/5a_z.png	false	false	true	38278	38885
+258425	46	uni	UniR	3	53	B	images/13_50_R_k.jpg	true	true	true	36584	40157
+258426	46	uni	UniR	3	54	B	images/25_50_R_k.jpg	true	true	true	40158	40717
+258427	46	uni	UniR	3	55	B	images/1_50_R_k.jpg	true	true	true	40718	41319
+258428	46	uni	UniR	3	56	B	images/13_50_R_k.jpg	true	true	true	41320	42245
+258429	46	uni	UniR	3	57	A	rimages/4b_z.png	true	true	true	38888	43917
+258430	46	uni	UniR	3	58	A	rimages/4e_z.png	false	false	true	43918	44509
+258431	46	uni	UniR	3	59	A	rimages/6a_z.png	true	true	true	44510	45213
+258432	46	uni	UniR	3	60	A	rimages/5c_z.png	false	false	true	45214	45870
+258433	46	uni	UniR	3	61	B	images/1_50_R_k.jpg	true	true	true	42246	47101
+258434	46	uni	UniR	3	62	B	images/39_50_k.jpg	false	false	true	47102	47621
+258435	46	uni	UniR	3	63	B	images/25_50_k.jpg	false	false	true	47622	48141
+258436	46	uni	UniR	3	64	B	images/1_50_k.jpg	false	false	true	48142	48773
+258437	46	uni	UniR	3	65	A	rimages/3d_z.png	false	false	true	45870	49469
+258438	46	uni	UniR	3	66	A	rimages/4d_z.png	false	false	true	49470	50077
+258439	46	uni	UniR	3	67	A	rimages/6b_z.png	true	true	true	50078	50925
+258440	46	uni	UniR	3	68	A	rimages/5e_z.png	false	false	true	50926	51598
+258441	46	uni	UniR	3	69	B	images/13_50_R_k.jpg	true	true	true	48774	52840
+258442	46	uni	UniR	3	70	B	images/25_50_R_k.jpg	true	true	true	52840	53429
+258443	46	uni	UniR	3	71	B	images/1_50_R_k.jpg	true	true	true	53430	54005
+258444	46	uni	UniR	3	72	B	images/13_50_R_k.jpg	true	true	true	54006	54605
+258445	46	uni	UniR	3	73	A	rimages/3b_z.png	false	false	true	51598	54917
+258446	46	uni	UniR	3	74	A	rimages/6a_z.png	true	true	true	54918	55541
+258447	46	uni	UniR	3	75	A	rimages/3a_z.png	false	false	true	55542	56333
+258448	46	uni	UniR	3	76	A	rimages/3e_z.png	false	false	true	56334	57021
+258449	46	uni	UniR	3	77	B	images/25_50_k.jpg	false	false	true	54606	58333
+258450	46	uni	UniR	3	78	B	images/13_50_k.jpg	false	false	true	58334	58917
+258451	46	uni	UniR	3	79	B	images/25_50_k.jpg	false	false	true	58918	59461
+258452	46	uni	UniR	3	80	B	images/39_50_k.jpg	false	false	true	59462	60367
+258453	46	uni	UniR	3	81	A	rimages/4b_z.png	true	true	true	57022	60757
+258454	46	uni	UniR	3	82	A	rimages/6a_z.png	true	true	true	60758	61349
+258455	46	uni	UniR	3	83	A	rimages/4e_z.png	false	false	true	61350	61973
+258456	46	uni	UniR	3	84	A	rimages/6b_z.png	true	true	true	61974	62600
+258457	46	uni	UniR	3	85	B	images/1_50_k.jpg	false	false	true	60367	63581
+258458	46	uni	UniR	3	86	B	images/1_50_R_k.jpg	true	true	true	63582	64157
+258459	46	uni	UniR	3	87	B	images/25_50_R_k.jpg	true	true	true	64158	64701
+258460	46	uni	UniR	3	88	B	images/39_50_k.jpg	false	false	true	64702	65429
+258461	46	uni	UniR	3	89	A	rimages/6a_z.png	true	true	true	62600	66349
+258462	46	uni	UniR	3	90	A	rimages/4b_z.png	true	true	true	66350	67253
+258463	46	uni	UniR	3	91	A	rimages/4d_z.png	false	false	true	67254	69229
+258464	46	uni	UniR	3	92	A	rimages/6b_z.png	true	true	true	69230	69789
+258465	46	uni	UniR	3	93	B	images/39_50_R_k.jpg	true	true	true	65430	70821
+258466	46	uni	UniR	3	94	B	images/25_50_R_k.jpg	true	true	true	70822	71445
+258467	46	uni	UniR	3	95	B	images/1_50_k.jpg	false	false	true	71446	72021
+258468	46	uni	UniR	3	96	B	images/1_50_R_k.jpg	true	true	true	72022	72493
+258469	46	uni	UniR	3	97	A	rimages/6a_z.png	true	true	true	69790	72749
+258470	46	uni	UniR	3	98	A	rimages/6b_z.png	true	true	true	72750	73445
+258471	46	uni	UniR	3	99	A	rimages/6a_z.png	true	true	true	73446	73997
+258472	46	uni	UniR	3	100	A	rimages/4c_z_2.png	false	false	true	73997	74701
+258473	46	uni	UniR	3	101	B	images/13_50_k.jpg	false	false	true	72494	75645
+258474	46	uni	UniR	3	102	B	images/25_50_R_k.jpg	true	true	true	75646	76118
+258475	46	uni	UniR	3	103	B	images/25_50_k.jpg	false	false	true	76118	76629
+258476	46	uni	UniR	3	104	B	images/39_50_k.jpg	false	false	true	76629	77285
+258477	46	uni	UniR	3	105	A	rimages/6b_z.png	true	true	true	74702	78189
+258478	46	uni	UniR	3	106	A	rimages/3d_z.png	false	false	true	78189	78765
+258479	46	uni	UniR	3	107	A	rimages/4b_z.png	true	false	false	78765	79349
+258480	46	uni	UniR	3	108	A	rimages/4e_z.png	false	false	true	79349	80141
+258481	46	uni	UniR	3	109	B	images/25_50_k.jpg	false	false	true	77286	81061
+258482	46	uni	UniR	3	110	B	images/13_50_R_k.jpg	true	true	true	81061	81509
+258483	46	uni	UniR	3	111	B	images/39_50_k.jpg	false	false	true	81510	81973
+258484	46	uni	UniR	3	112	B	images/13_50_k.jpg	false	false	true	81973	82517
+258485	46	uni	UniR	3	113	A	rimages/6a_z.png	true	true	true	80142	82949
+258486	46	uni	UniR	3	114	A	rimages/3b_z.png	false	false	true	82949	83493
+258487	46	uni	UniR	3	115	A	rimages/3e_z.png	false	false	true	83493	84597
+258488	46	uni	UniR	3	116	A	rimages/4b_z.png	true	true	true	84597	85245
+258489	46	uni	UniR	3	117	B	images/25_50_k.jpg	false	false	true	82517	86245
+258490	46	uni	UniR	3	118	B	images/1_50_k.jpg	false	false	true	86245	86989
+258491	46	uni	UniR	3	119	B	images/39_50_k.jpg	false	false	true	86990	87493
+258492	46	uni	UniR	3	120	B	images/25_50_R_k.jpg	true	true	true	87493	88053
+258493	46	uni	UniR	3	121	A	rimages/6b_z.png	true	true	true	85245	89181
+258494	46	uni	UniR	3	122	A	rimages/3d_z.png	false	false	true	89181	89829
+258495	46	uni	UniR	3	123	A	rimages/6e_z.png	false	true	false	89829	90501
+258496	46	uni	UniR	3	124	A	rimages/6a_z.png	true	true	true	90501	91245
+258497	46	uni	UniR	3	125	B	images/1_50_k.jpg	false	false	true	88053	92205
+258498	46	uni	UniR	3	126	B	images/13_50_R_k.jpg	true	true	true	92207	92725
+258499	46	uni	UniR	3	127	B	images/25_50_R_k.jpg	true	true	true	92725	93301
+258500	46	uni	UniR	3	128	B	images/13_50_k.jpg	false	false	true	93301	93789
+258501	46	uni	UniR	3	129	A	rimages/4e_z.png	false	false	true	91245	94213
+258502	46	uni	UniR	3	130	A	rimages/4b_z.png	true	true	true	94213	95117
+258503	46	uni	UniR	3	131	A	rimages/6b_z.png	true	true	true	95117	95693
+258504	46	uni	UniR	3	132	A	rimages/4b_z.png	true	true	true	95693	96613
+258505	46	uni	UniR	3	133	B	images/1_50_k.jpg	false	false	true	93789	97573
+258506	46	uni	UniR	3	134	B	images/39_50_R_k.jpg	true	true	true	97573	98077
+258507	46	uni	UniR	3	135	B	images/25_50_k.jpg	false	false	true	98077	98541
+258508	46	uni	UniR	3	136	B	images/1_50_R_k.jpg	true	true	true	98543	99165
+258509	46	uni	UniR	3	137	A	rimages/6b_z.png	true	true	true	96613	99421
+258510	46	uni	UniR	3	138	A	rimages/5c_z.png	false	false	true	99421	100093
+258511	46	uni	UniR	3	139	A	rimages/6a_z.png	true	true	true	100093	100637
+258512	46	uni	UniR	3	140	A	rimages/3c_z.png	false	false	true	100639	101245
+258513	46	uni	UniR	3	141	B	images/39_50_R_k.jpg	true	true	true	99165	102413
+258514	46	uni	UniR	3	142	B	images/39_50_k.jpg	false	false	true	102413	102861
+258515	46	uni	UniR	3	143	B	images/1_50_R_k.jpg	true	true	true	102861	103517
+258516	46	uni	UniR	3	144	B	images/25_50_R_k.jpg	true	true	true	103517	104069
+258517	46	uni	UniR	3	145	A	rimages/5a_z.png	false	false	true	101245	104909
+258518	46	uni	UniR	3	146	A	rimages/6c_z.png	false	false	true	104909	105519
+258519	46	uni	UniR	3	147	A	rimages/4b_z.png	true	true	true	105519	106709
+258520	46	uni	UniR	3	148	A	rimages/6a_z.png	true	true	true	106709	107452
+258521	46	uni	UniR	3	149	B	images/1_50_k.jpg	false	false	true	104069	108460
+258522	46	uni	UniR	3	150	B	images/39_50_k.jpg	false	false	true	108461	108965
+258523	46	uni	UniR	3	151	B	images/1_50_k.jpg	false	false	true	108965	109517
+258524	46	uni	UniR	3	152	B	images/39_50_R_k.jpg	true	true	true	109517	110020
+258525	46	uni	UniR	3	153	A	rimages/6d_z.png	false	false	true	107453	111062
+258526	46	uni	UniR	3	154	A	rimages/3b_z.png	false	false	true	111063	111783
+258527	46	uni	UniR	3	155	A	rimages/4b_z.png	true	true	true	111784	112492
+258528	46	uni	UniR	3	156	A	rimages/6b_z.png	true	true	true	112493	113044
+258529	46	uni	UniR	3	157	A	rimages/6a_z.png	true	true	true	113045	113500
+258530	46	uni	UniR	3	158	B	images/25_50_R_k.jpg	true	true	true	110021	114708
+258531	46	uni	UniR	3	159	B	images/25_50_k.jpg	false	false	true	114709	115156
+258532	46	uni	UniR	3	160	B	images/1_50_k.jpg	false	false	true	115158	115671
+258533	46	uni	UniR	3	161	B	images/1_50_R_k.jpg	true	true	true	115671	116252
+258534	46	uni	UniR	3	162	A	rimages/4b_z.png	true	true	true	113501	116436
+258535	46	uni	UniR	3	163	A	rimages/6b_z.png	true	true	true	116437	117004
+258536	46	uni	UniR	3	164	A	rimages/3a_z.png	false	false	true	117005	117588
+258537	46	uni	UniR	3	165	A	rimages/4a_z.png	false	false	true	117589	118245
+258538	46	uni	UniR	3	166	B	images/13_50_R_k.jpg	true	true	true	116253	119332
+258539	46	uni	UniR	3	167	B	images/39_50_k.jpg	false	false	true	119333	119852
+258540	46	uni	UniV	3	1	A	R  S	false	false	true	18	2177
+258541	46	uni	UniV	3	2	A	R  C	true	true	true	2178	2927
+258542	46	uni	UniV	3	3	A	D  C	false	false	true	2929	3519
+258543	46	uni	UniV	3	4	A	C  T	false	false	true	3520	4111
+258544	46	uni	UniV	3	5	B	2  4	true	true	true	18	5040
+258545	46	uni	UniV	3	6	B	4  7	false	false	true	5041	5495
+258546	46	uni	UniV	3	7	B	5  6	false	false	true	5497	6055
+258547	46	uni	UniV	3	8	B	7  9	true	true	true	6056	6583
+258548	46	uni	UniV	3	9	B	4  7	false	false	true	6584	7095
+258549	46	uni	UniV	3	10	A	B  M	true	true	true	4112	7488
+258550	46	uni	UniV	3	11	A	R  S	false	false	true	7489	8263
+258551	46	uni	UniV	3	12	A	W  M	false	false	true	8264	8975
+258552	46	uni	UniV	3	13	A	B  F	false	false	true	8976	9479
+258553	46	uni	UniV	3	14	B	5  6	false	false	true	7096	10991
+258554	46	uni	UniV	3	15	B	6  8	true	true	true	10992	11599
+258555	46	uni	UniV	3	16	B	7  9	true	true	true	11600	12359
+258556	46	uni	UniV	3	17	B	3  5	true	true	true	12360	13023
+258557	46	uni	UniV	3	18	A	C  R	true	true	true	9480	14215
+258558	46	uni	UniV	3	19	A	R  C	true	true	true	14216	14895
+258559	46	uni	UniV	3	20	A	C  R	true	true	true	14896	15439
+258560	46	uni	UniV	3	21	A	B  M	true	true	true	15439	15967
+258561	46	uni	UniV	3	22	B	7  9	true	true	true	13024	17047
+258562	46	uni	UniV	3	23	B	4  7	false	false	true	17048	17503
+258563	46	uni	UniV	3	24	B	2  4	true	true	true	17503	18079
+258564	46	uni	UniV	3	25	B	5  6	false	false	true	18079	18591
+258565	46	uni	UniV	3	26	A	R  C	true	true	true	15968	19047
+258566	46	uni	UniV	3	27	A	P  R	false	false	true	19047	19519
+258567	46	uni	UniV	3	28	A	B  M	true	true	true	19519	20055
+258568	46	uni	UniV	3	29	A	R  C	true	true	true	20055	20567
+258569	46	uni	UniV	3	30	A	M  S	false	false	true	20567	21287
+258570	46	uni	UniV	3	31	B	4  7	false	false	true	18591	22023
+258571	46	uni	UniV	3	32	B	3  8	false	true	false	22023	22615
+258572	46	uni	UniV	3	33	B	7  9	true	true	true	22616	23159
+258573	46	uni	UniV	3	34	B	3  5	true	true	true	23159	23807
+258574	46	uni	UniV	3	35	B	5  6	false	false	true	23807	24471
+258575	46	uni	UniV	3	36	A	B  M	true	true	true	21287	25135
+258576	46	uni	UniV	3	37	A	C  R	true	true	true	25135	25767
+258577	46	uni	UniV	3	38	A	B  T	false	false	true	25767	26425
+258578	46	uni	UniV	3	39	A	M  B	true	true	true	26425	27007
+258579	46	uni	UniV	3	40	B	2  4	true	true	true	24471	28287
+258580	46	uni	UniV	3	41	B	3  5	true	true	true	28287	28983
+258581	46	uni	UniV	3	42	B	2  9	false	false	true	28983	29511
+258582	46	uni	UniV	3	43	B	4  7	false	false	true	29512	30271
+258583	46	uni	UniV	3	44	A	V  C	false	false	true	27007	32095
+258584	46	uni	UniV	3	45	A	C  G	false	false	true	32096	32735
+258585	46	uni	UniV	3	46	A	R  C	true	true	true	32735	33423
+258586	46	uni	UniV	3	47	A	M  B	true	true	true	33423	34007
+258587	46	uni	UniV	3	48	B	2  9	false	false	true	30272	35857
+258588	46	uni	UniV	3	49	B	5  6	false	false	true	35857	36519
+258589	46	uni	UniV	3	50	B	4  7	false	false	true	36519	37023
+258590	46	uni	UniV	3	51	B	7  9	true	true	true	37023	37729
+258591	46	uni	UniV	3	52	A	J  C	false	false	true	34007	38919
+258592	46	uni	UniV	3	53	A	C  R	true	true	true	38919	39663
+258593	46	uni	UniV	3	54	A	B  M	true	true	true	39663	40271
+258594	46	uni	UniV	3	55	A	B  X	false	false	true	40271	40815
+258595	46	uni	UniV	3	56	B	3  5	true	true	true	37730	41646
+258596	46	uni	UniV	3	57	B	5  6	false	false	true	41647	42230
+258597	46	uni	UniV	3	58	B	7  9	true	true	true	42231	42838
+258598	46	uni	UniV	3	59	B	2  4	true	true	true	42839	43366
+258599	46	uni	UniV	3	60	A	C  R	true	true	true	40815	43814
+258600	46	uni	UniV	3	61	A	R  K	false	false	true	43815	44358
+258601	46	uni	UniV	3	62	A	Q  C	false	false	true	44359	45062
+258602	46	uni	UniV	3	63	A	B  M	true	true	true	45063	45574
+258603	46	uni	UniV	3	64	B	6  8	true	true	true	43368	46294
+258604	46	uni	UniV	3	65	B	3  8	false	false	true	46295	46846
+258605	46	uni	UniV	3	66	B	3  5	true	true	true	46847	47438
+258606	46	uni	UniV	3	67	B	7  9	true	true	true	47439	48118
+258607	46	uni	UniV	3	68	A	C  R	true	true	true	45575	48639
+258608	46	uni	UniV	3	69	A	M  B	true	true	true	48640	49182
+258609	46	uni	UniV	3	70	A	M  T	false	false	true	49183	49774
+258610	46	uni	UniV	3	71	A	R  C	true	true	true	49775	50542
+258611	46	uni	UniV	3	72	B	4  7	false	false	true	48120	51398
+258612	46	uni	UniV	3	73	B	6  8	true	true	true	51399	51934
+258613	46	uni	UniV	3	74	B	2  4	true	true	true	51950	52454
+258614	46	uni	UniV	3	75	B	3  5	true	true	true	52458	53174
+258615	46	uni	UniV	3	76	A	L  C	false	false	true	50543	53718
+258616	46	uni	UniV	3	77	A	B  M	true	true	true	53719	54358
+258617	46	uni	UniV	3	78	A	C  R	true	true	true	54359	54894
+258618	46	uni	UniV	3	79	A	V  B	false	false	true	54895	55398
+258619	46	uni	UniV	3	80	B	3  8	false	false	true	53175	56774
+258620	46	uni	UniV	3	81	B	2  4	true	true	true	56775	57286
+258621	46	uni	UniV	3	82	B	5  6	false	false	true	57287	57822
+258622	46	uni	UniV	3	83	B	3  5	true	true	true	57823	58334
+258623	46	uni	UniV	3	84	B	3  8	false	false	true	58335	58966
+258624	46	uni	UniV	3	85	A	M  B	true	true	true	55399	59574
+258625	46	uni	UniV	3	86	A	F  R	false	false	true	59575	60094
+258626	46	uni	UniV	3	87	A	B  D	false	false	true	60095	60648
+258627	46	uni	UniV	3	88	A	R  C	true	true	true	60649	61190
+258628	46	uni	UniV	3	89	B	4  7	false	false	true	58967	62158
+258629	46	uni	UniV	3	90	B	6  8	true	true	true	62159	62590
+258630	46	uni	UniV	3	91	B	2  4	true	true	true	62591	63070
+258631	46	uni	UniV	3	92	B	5  6	false	false	true	63071	63678
+258632	46	uni	UniV	3	93	B	7  9	true	true	true	63680	64262
+258633	46	uni	UniV	3	94	A	B  M	true	true	true	61191	64838
+258634	46	uni	UniV	3	95	A	C  L	false	false	true	64839	65368
+258635	46	uni	UniV	3	96	A	C  Y	false	false	true	65369	65886
+258636	46	uni	UniV	3	97	A	R  Y	false	false	true	65887	66870
+258637	46	uni	UniV	3	98	B	3  8	false	false	true	64263	68478
+258638	46	uni	UniV	3	99	B	2  4	true	true	true	68479	68958
+258639	46	uni	UniV	3	100	B	6  8	true	true	true	68959	69502
+258640	46	uni	UniV	3	101	B	4  7	false	false	true	69503	69990
+258641	46	uni	UniV	3	102	A	R  C	true	true	true	66871	70408
+258642	46	uni	UniV	3	103	A	R  N	false	false	true	70408	70942
+258643	46	uni	UniV	3	104	A	B  M	true	true	true	70943	71670
+258644	46	uni	UniV	3	105	A	T  M	false	false	true	71671	72158
+258645	46	uni	UniV	3	106	B	3  5	true	true	true	69991	73894
+258646	46	uni	UniV	3	107	B	5  6	false	false	true	73895	74590
+258647	46	uni	UniV	3	108	B	2  9	false	false	true	74591	75262
+258648	46	uni	UniV	3	109	B	3  8	false	false	true	75263	75942
+258649	46	uni	UniV	3	110	A	F  M	false	false	true	72159	76302
+258650	46	uni	UniV	3	111	A	M  Q	false	false	true	76303	76878
+258651	46	uni	UniV	3	112	A	R  C	true	true	true	76879	77430
+258652	46	uni	UniV	3	113	A	B  K	false	false	true	77431	77926
+258653	46	uni	UniV	3	114	B	6  8	true	false	false	75943	78926
+258654	46	uni	UniV	3	115	B	3  5	true	true	true	78927	79614
+258655	46	uni	UniV	3	116	B	2  9	false	false	true	79615	80134
+258656	46	uni	UniV	3	117	B	3  8	false	false	true	80135	81110
+258657	46	uni	UniV	3	118	A	L  R	false	false	true	77927	81614
+258658	46	uni	UniV	3	119	A	B  M	true	true	true	81615	82174
+258659	46	uni	UniV	3	120	A	R  J	false	false	true	82175	82670
+258660	46	uni	UniV	3	121	A	M  B	true	true	true	82671	83190
+258661	46	uni	UniV	3	122	B	5  6	false	false	true	81111	84334
+258662	46	uni	UniV	3	123	B	3  8	false	false	true	84335	84942
+258663	46	uni	UniV	3	124	B	7  9	true	true	true	84943	85512
+258664	46	uni	UniV	3	125	B	3  5	true	true	true	85513	86070
+258665	46	uni	UniV	3	126	A	C  P	false	false	true	83191	86430
+258666	46	uni	UniV	3	127	A	C  R	true	true	true	86431	87023
+258667	46	uni	UniV	3	128	A	G  C	false	false	true	87024	87710
+258668	46	uni	UniV	3	129	A	R  C	true	true	true	87710	88494
+258669	46	uni	UniV	3	130	B	2  9	false	false	true	86070	89718
+258670	46	uni	UniV	3	131	B	4  7	false	false	true	89718	90247
+258671	46	uni	UniV	3	132	B	5  6	false	false	true	90248	90895
+258672	46	uni	UniV	3	133	B	4  7	false	false	true	90895	91422
+258673	46	uni	UniV	3	134	B	5  6	false	false	true	91422	92294
+258674	46	uni	UniV	3	135	A	W  C	false	false	true	88494	93038
+258675	46	uni	UniV	3	136	A	M  B	true	false	false	93039	93526
+258676	46	uni	UniV	3	137	A	C  R	true	true	true	93526	94342
+258677	46	uni	UniV	3	138	A	R  C	true	true	true	94342	94862
+258678	46	uni	UniV	3	139	A	C  R	true	true	true	94862	95503
+258679	46	uni	UniV	3	140	B	2  4	true	true	true	92295	96718
+258680	46	uni	UniV	3	141	B	3  5	true	true	true	96718	97342
+258681	46	uni	UniV	3	142	B	2  9	false	false	true	97342	97870
+258682	46	uni	UniV	3	143	B	2  4	true	true	true	97870	98462
+258683	46	uni	UniV	3	144	A	P  R	false	false	true	95504	99070
+258684	46	uni	UniV	3	145	A	R  T	false	false	true	99070	99751
+258685	46	uni	UniV	3	146	A	R  C	true	true	true	99752	100350
+258686	46	uni	UniV	3	147	A	N  M	false	false	true	100350	100966
+258687	46	uni	UniV	3	148	B	3  8	false	false	true	98462	102350
+258688	46	uni	UniV	3	149	B	4  7	false	false	true	102350	102902
+258689	46	uni	UniV	3	150	B	3  5	true	true	true	102902	103470
+258690	46	uni	UniV	3	151	B	3  8	false	false	true	103471	103990
+258691	46	uni	UniV	3	152	A	N  B	false	false	true	100966	104606
+258692	46	uni	UniV	3	153	A	B  M	true	true	true	104606	105310
+258693	46	uni	UniV	3	154	A	R  C	true	true	true	105310	105846
+258694	46	uni	UniV	3	155	A	X  M	false	false	true	105846	106398
+258695	46	uni	UniV	3	156	B	5  6	false	true	false	103990	107790
+258696	46	uni	UniV	3	157	B	7  9	true	true	true	107790	108437
+258697	46	uni	UniV	3	158	B	3  5	true	true	true	108438	109733
+258698	46	uni	UniV	3	159	B	7  9	true	true	true	109734	110373
+258699	46	uni	UniV	3	160	B	3  5	true	true	true	110374	111525
+258700	46	uni	UniV	3	161	A	B  M	true	true	true	106399	112869
+258701	46	uni	UniV	3	162	A	C  R	true	true	true	112870	113389
+258702	46	uni	UniV	3	163	A	R  S	false	false	true	113390	113869
+258703	46	uni	UniV	3	164	A	H  C	false	false	true	113870	114413
+258704	46	uni	UniV	3	165	B	6  8	true	true	true	111526	115877
+258705	46	uni	UniV	3	166	B	2  9	false	false	true	115878	116445
+258706	46	uni	UniV	3	167	B	2  4	true	true	true	116446	116973
+258707	46	uni	UniV	3	168	B	6  8	true	true	true	116974	117461
+258708	46	uni	UniV	3	169	A	X  B	false	false	true	114414	117925
+258709	46	uni	UniV	3	170	A	M  B	true	true	true	117926	118477
+258710	46	uni	UniV	3	171	A	B  M	true	true	true	118479	118997
+258711	46	uni	UniV	3	172	A	C  W	false	false	true	118998	119573
+259074	46	uni	UniR	3	1	A	rimages/3b_z.png	true	false	false	16	1789
+259075	46	uni	UniR	3	2	A	rimages/4e_z.png	true	true	true	1789	2901
+259076	46	uni	UniR	3	3	A	rimages/3b_z.png	true	true	true	2901	3637
+259077	46	uni	UniR	3	4	A	rimages/4a_z.png	false	false	true	3637	4213
+259078	46	uni	UniR	3	5	B	images/1_50_R_k.jpg	true	true	true	16	5437
+259079	46	uni	UniR	3	6	B	images/13_50_R_k.jpg	true	true	true	5437	6053
+259080	46	uni	UniR	3	7	B	images/25_50_k.jpg	false	false	true	6053	6589
+259081	46	uni	UniR	3	8	B	images/39_50_k.jpg	false	false	true	6589	7141
+259082	46	uni	UniR	3	9	A	rimages/3a_z.png	true	true	true	4213	7565
+259083	46	uni	UniR	3	10	A	rimages/3b_z.png	true	true	true	7565	8206
+259084	46	uni	UniR	3	11	A	rimages/6b_z.png	false	false	true	8207	8869
+259085	46	uni	UniR	3	12	A	rimages/5a_z.png	false	false	true	8869	9445
+259086	46	uni	UniR	3	13	B	images/25_50_R_k.jpg	true	true	true	7142	10485
+259087	46	uni	UniR	3	14	B	images/13_50_k.jpg	false	false	true	10485	11101
+259088	46	uni	UniR	3	15	B	images/25_50_k.jpg	false	false	true	11101	11613
+259089	46	uni	UniR	3	16	B	images/39_50_k.jpg	false	false	true	11613	12341
+259090	46	uni	UniR	3	17	A	rimages/3e_z.png	false	false	true	9445	12645
+259091	46	uni	UniR	3	18	A	rimages/6c_z.png	false	false	true	12645	13333
+259092	46	uni	UniR	3	19	A	rimages/3a_z.png	true	true	true	13333	13973
+259093	46	uni	UniR	3	20	A	rimages/3e_z.png	false	false	true	13973	14557
+259094	46	uni	UniR	3	21	B	images/13_50_R_k.jpg	true	true	true	12341	15789
+259095	46	uni	UniR	3	22	B	images/1_50_k.jpg	false	false	true	15789	16301
+259096	46	uni	UniR	3	23	B	images/25_50_R_k.jpg	true	true	true	16301	16781
+259097	46	uni	UniR	3	24	B	images/13_50_k.jpg	false	false	true	16781	17301
+259098	46	uni	UniR	3	25	A	rimages/6a_z.png	false	false	true	14557	17893
+259099	46	uni	UniR	3	26	A	rimages/3b_z.png	true	false	false	17893	18477
+259100	46	uni	UniR	3	27	A	rimages/3a_z.png	true	true	true	18477	19045
+259101	46	uni	UniR	3	28	A	rimages/4e_z.png	true	true	true	19045	19661
+259102	46	uni	UniR	3	29	A	rimages/3a_z.png	true	true	true	19661	20940
+259103	46	uni	UniR	3	30	A	rimages/4e_z.png	true	true	true	20941	21573
+259104	46	uni	UniR	3	31	B	images/39_50_R_k.jpg	true	true	true	17301	23212
+259105	46	uni	UniR	3	32	B	images/39_50_k.jpg	false	false	true	23213	23660
+259106	46	uni	UniR	3	33	B	images/25_50_R_k.jpg	true	true	true	23661	24236
+259107	46	uni	UniR	3	34	B	images/1_50_k.jpg	false	false	true	24237	24772
+259108	46	uni	UniR	3	35	B	images/25_50_k.jpg	false	false	true	24773	25397
+259109	46	uni	UniR	3	36	B	images/39_50_R_k.jpg	true	false	false	25397	25476
+259110	46	uni	UniR	3	37	B	images/1_50_k.jpg	false	false	true	25477	26693
+259111	46	uni	UniR	3	38	B	images/25_50_R_k.jpg	true	true	true	26694	27236
+259112	46	uni	UniR	3	39	A	rimages/3c_z.png	false	false	true	21573	27660
+259113	46	uni	UniR	3	40	A	rimages/4a_z.png	false	false	true	27661	28292
+259114	46	uni	UniR	3	41	A	rimages/6c_z.png	false	false	true	28293	28885
+259115	46	uni	UniR	3	42	A	rimages/3b_z.png	true	true	true	28885	31916
+259116	46	uni	UniR	3	43	B	images/25_50_k.jpg	false	false	true	27237	33452
+259117	46	uni	UniR	3	44	B	images/1_50_k.jpg	false	true	false	33453	33956
+259118	46	uni	UniR	3	45	B	images/39_50_k.jpg	false	false	true	33957	34476
+259119	46	uni	UniR	3	46	B	images/25_50_k.jpg	false	false	true	34477	35140
+259120	46	uni	UniR	3	47	A	rimages/3a_z.png	true	true	true	31917	36308
+259121	46	uni	UniR	3	48	A	rimages/5a_z.png	false	false	true	36309	36860
+259122	46	uni	UniR	3	49	A	rimages/3b_z.png	true	true	true	36861	37710
+259123	46	uni	UniR	3	50	A	rimages/3d_z.png	false	false	true	37711	38324
+259124	46	uni	UniR	3	51	B	images/13_50_k.jpg	false	false	true	35141	39340
+259125	46	uni	UniR	3	52	B	images/39_50_R_k.jpg	true	true	true	39342	39836
+259126	46	uni	UniR	3	53	B	images/1_50_k.jpg	false	false	true	39837	40364
+259127	46	uni	UniR	3	54	B	images/25_50_R_k.jpg	true	true	true	40365	40861
+259128	46	uni	UniR	3	55	A	rimages/4e_z.png	true	true	true	38325	41204
+259129	46	uni	UniR	3	56	A	rimages/6d_z.png	false	false	true	41205	41900
+259130	46	uni	UniR	3	57	A	rimages/4d_z.png	false	false	true	41901	42517
+259131	46	uni	UniR	3	58	A	rimages/3b_z.png	true	true	true	42517	43332
+259132	46	uni	UniR	3	59	B	images/39_50_k.jpg	false	false	true	40861	44652
+259133	46	uni	UniR	3	60	B	images/1_50_R_k.jpg	true	true	true	44653	45148
+259134	46	uni	UniR	3	61	B	images/39_50_R_k.jpg	true	true	true	45149	45676
+259135	46	uni	UniR	3	62	B	images/13_50_k.jpg	false	false	true	45677	46124
+259136	46	uni	UniR	3	63	A	rimages/4e_z.png	true	true	true	43333	46572
+259137	46	uni	UniR	3	64	A	rimages/3a_z.png	true	true	true	46573	47188
+259138	46	uni	UniR	3	65	A	rimages/4e_z.png	true	true	true	47189	47724
+259139	46	uni	UniR	3	66	A	rimages/6e_z.png	false	false	true	47725	48637
+259140	46	uni	UniR	3	67	B	images/1_50_R_k.jpg	true	true	true	46125	53572
+259141	46	uni	UniR	3	68	B	images/25_50_R_k.jpg	true	true	true	53573	54037
+259142	46	uni	UniR	3	69	B	images/39_50_k.jpg	false	false	true	54038	54516
+259143	46	uni	UniR	3	70	B	images/1_50_k.jpg	false	false	true	54517	55045
+259144	46	uni	UniR	3	71	A	rimages/3a_z.png	true	true	true	48638	55412
+259145	46	uni	UniR	3	72	A	rimages/4e_z.png	true	true	true	55413	56004
+259146	46	uni	UniR	3	73	A	rimages/3b_z.png	true	true	true	56005	56774
+259147	46	uni	UniR	3	74	A	rimages/4e_z.png	true	true	true	56775	57372
+259148	46	uni	UniR	3	75	B	images/39_50_k.jpg	false	false	true	55046	58436
+259149	46	uni	UniR	3	76	B	images/1_50_R_k.jpg	true	true	true	58437	58996
+259150	46	uni	UniR	3	77	B	images/25_50_k.jpg	false	false	true	58996	59476
+259151	46	uni	UniR	3	78	B	images/13_50_k.jpg	false	false	true	59477	60036
+259152	46	uni	UniR	3	79	A	rimages/3d_z.png	false	false	true	57373	60468
+259153	46	uni	UniR	3	80	A	rimages/5e_z.png	false	false	true	60469	61022
+259154	46	uni	UniR	3	81	A	rimages/3a_z.png	true	true	true	61023	61670
+259155	46	uni	UniR	3	82	A	rimages/4b_z.png	false	false	true	61670	62412
+259156	46	uni	UniR	3	83	B	images/39_50_R_k.jpg	true	false	false	60036	63412
+259157	46	uni	UniR	3	84	B	images/25_50_k.jpg	false	false	true	63412	63964
+259158	46	uni	UniR	3	85	B	images/13_50_k.jpg	false	false	true	63964	64516
+259159	46	uni	UniR	3	86	B	images/1_50_k.jpg	false	false	true	64516	65084
+259160	46	uni	UniR	3	87	A	rimages/3b_z.png	true	true	true	62412	65852
+259161	46	uni	UniR	3	88	A	rimages/3a_z.png	true	true	true	65853	66364
+259162	46	uni	UniR	3	89	A	rimages/3b_z.png	true	true	true	66364	66900
+259163	46	uni	UniR	3	90	A	rimages/3a_z.png	true	true	true	66900	67502
+259164	46	uni	UniR	3	91	B	images/1_50_R_k.jpg	true	false	false	65084	68388
+259165	46	uni	UniR	3	92	B	images/13_50_k.jpg	false	false	true	68388	68964
+259166	46	uni	UniR	3	93	B	images/1_50_k.jpg	false	false	true	68964	69446
+259167	46	uni	UniR	3	94	B	images/13_50_R_k.jpg	true	true	true	69446	69956
+259168	46	uni	UniR	3	95	A	rimages/6b_z.png	false	false	true	67503	70382
+259169	46	uni	UniR	3	96	A	rimages/3b_z.png	true	true	true	70383	71092
+259170	46	uni	UniR	3	97	A	rimages/4e_z.png	true	true	true	71092	71796
+259171	46	uni	UniR	3	98	A	rimages/5c_z.png	false	false	true	71796	73068
+259172	46	uni	UniR	3	99	B	images/13_50_k.jpg	false	false	true	69956	74260
+259173	46	uni	UniR	3	100	B	images/39_50_k.jpg	false	false	true	74260	74788
+259174	46	uni	UniR	3	101	B	images/1_50_R_k.jpg	true	true	true	74788	75276
+259175	46	uni	UniR	3	102	B	images/13_50_k.jpg	false	false	true	75276	75724
+259176	46	uni	UniR	3	103	A	rimages/3a_z.png	true	true	true	73068	76300
+259177	46	uni	UniR	3	104	A	rimages/5a_z.png	false	false	true	76300	76868
+259178	46	uni	UniR	3	105	A	rimages/4c_z_2.png	false	false	true	76868	78420
+259179	46	uni	UniR	3	106	A	rimages/4e_z.png	true	true	true	78420	79116
+259180	46	uni	UniR	3	107	B	images/39_50_R_k.jpg	true	false	false	75724	79980
+259181	46	uni	UniR	3	108	B	images/1_50_R_k.jpg	true	false	false	79980	80517
+259182	46	uni	UniR	3	109	B	images/1_50_k.jpg	false	false	true	80518	81453
+259183	46	uni	UniR	3	110	B	images/25_50_k.jpg	false	false	true	81453	82012
+259184	46	uni	UniR	3	111	A	rimages/4b_z.png	false	false	true	79116	83829
+259185	46	uni	UniR	3	112	A	rimages/3e_z.png	false	false	true	83829	84420
+259186	46	uni	UniR	3	113	A	rimages/5e_z.png	false	false	true	84420	85100
+259187	46	uni	UniR	3	114	A	rimages/6d_z.png	false	false	true	85100	85773
+259188	46	uni	UniR	3	115	B	images/1_50_k.jpg	false	false	true	82012	88236
+259189	46	uni	UniR	3	116	B	images/25_50_k.jpg	false	false	true	88236	88844
+259190	46	uni	UniR	3	117	B	images/1_50_k.jpg	false	false	true	88844	89347
+259191	46	uni	UniR	3	118	B	images/13_50_R_k.jpg	true	true	true	89348	89820
+259192	46	uni	UniR	3	119	A	rimages/4c_z_2.png	false	false	true	85773	91163
+259193	46	uni	UniR	3	120	A	rimages/3b_z.png	true	true	true	91164	91996
+259194	46	uni	UniR	3	121	A	rimages/4e_z.png	true	true	true	91996	92780
+259195	46	uni	UniR	3	122	A	rimages/3b_z.png	true	true	true	92780	93355
+259196	46	uni	UniR	3	123	B	images/1_50_R_k.jpg	true	true	true	89820	94414
+259197	46	uni	UniR	3	124	B	images/25_50_k.jpg	false	false	true	94415	94931
+259198	46	uni	UniR	3	125	B	images/39_50_k.jpg	false	false	true	94932	95637
+259199	46	uni	UniR	3	126	B	images/13_50_k.jpg	false	false	true	95639	96235
+259200	46	uni	UniR	3	127	A	rimages/6d_z.png	false	false	true	93356	96923
+259201	46	uni	UniR	3	128	A	rimages/3a_z.png	true	true	true	96924	97771
+259202	46	uni	UniR	3	129	A	rimages/4c_z_2.png	false	false	true	97772	98627
+259203	46	uni	UniR	3	130	A	rimages/3b_z.png	true	true	true	98628	99179
+259204	46	uni	UniR	3	131	B	images/39_50_R_k.jpg	true	true	true	96236	100075
+259205	46	uni	UniR	3	132	B	images/39_50_k.jpg	false	false	true	100076	100539
+259206	46	uni	UniR	3	133	B	images/13_50_R_k.jpg	true	true	true	100540	101211
+259207	46	uni	UniR	3	134	B	images/1_50_k.jpg	false	false	true	101212	101795
+259208	46	uni	UniR	3	135	A	rimages/6a_z.png	false	false	true	99180	103211
+259209	46	uni	UniR	3	136	A	rimages/5e_z.png	false	false	true	103212	103843
+259210	46	uni	UniR	3	137	A	rimages/4a_z.png	false	false	true	103846	104435
+259211	46	uni	UniR	3	138	A	rimages/4b_z.png	false	false	true	104436	105187
+259212	46	uni	UniR	3	139	B	images/13_50_k.jpg	false	false	true	101796	106067
+259213	46	uni	UniR	3	140	B	images/39_50_k.jpg	false	false	true	106068	106515
+259214	46	uni	UniR	3	141	B	images/25_50_k.jpg	false	false	true	106516	107003
+259215	46	uni	UniR	3	142	B	images/39_50_R_k.jpg	true	true	true	107004	107531
+259216	46	uni	UniR	3	143	A	rimages/3a_z.png	true	true	true	105188	109851
+259217	46	uni	UniR	3	144	A	rimages/4e_z.png	true	true	true	109852	110483
+259218	46	uni	UniR	3	145	A	rimages/3a_z.png	true	true	true	110484	111075
+259219	46	uni	UniR	3	146	A	rimages/4c_z_2.png	false	false	true	111076	111699
+259220	46	uni	UniR	3	147	B	images/25_50_R_k.jpg	true	true	true	107532	112787
+259221	46	uni	UniR	3	148	B	images/13_50_k.jpg	false	false	true	112788	113267
+259222	46	uni	UniR	3	149	B	images/1_50_R_k.jpg	true	true	true	113268	113851
+259223	46	uni	UniR	3	150	B	images/25_50_R_k.jpg	true	true	true	113852	114315
+259224	46	uni	UniR	3	151	A	rimages/4a_z.png	false	false	true	111701	115107
+259225	46	uni	UniR	3	152	A	rimages/6c_z.png	false	false	true	115108	115611
+259226	46	uni	UniR	3	153	A	rimages/4d_z.png	false	false	true	115612	116227
+259227	46	uni	UniR	3	154	A	rimages/4e_z.png	true	true	true	116229	116923
+259228	46	uni	UniR	3	155	B	images/25_50_k.jpg	false	false	true	114316	117883
+259229	46	uni	UniR	3	156	B	images/1_50_k.jpg	false	false	true	117884	118451
+259230	46	uni	UniR	3	157	B	images/39_50_k.jpg	false	false	true	118452	118963
+259231	46	uni	UniR	3	158	B	images/1_50_k.jpg	false	false	true	118964	119627
+259232	46	uni	UniV	3	1	A	M  G	true	true	true	9	2800
+259233	46	uni	UniV	3	2	A	C  M	false	false	true	2801	3488
+259234	46	uni	UniV	3	3	A	M  H	false	false	true	3489	4016
+259235	46	uni	UniV	3	4	A	G  M	true	true	true	4017	4512
+259236	46	uni	UniV	3	5	B	2  9	false	false	true	9	4977
+259237	46	uni	UniV	3	6	B	7  9	true	true	true	4977	5528
+259238	46	uni	UniV	3	7	B	3  8	false	false	true	5529	6064
+259239	46	uni	UniV	3	8	B	5  6	false	false	true	6065	6705
+259240	46	uni	UniV	3	9	B	2  9	false	false	true	6706	7248
+259241	46	uni	UniV	3	10	B	3  8	false	false	true	7249	8168
+259242	46	uni	UniV	3	11	A	C  B	false	true	false	4513	8721
+259243	46	uni	UniV	3	12	A	M  G	true	true	true	8722	12184
+259244	46	uni	UniV	3	13	A	J  B	true	true	true	12184	12736
+259245	46	uni	UniV	3	14	A	G  M	true	false	false	12736	13416
+259246	46	uni	UniV	3	15	B	3  5	true	true	true	8168	15528
+259247	46	uni	UniV	3	16	B	5  6	false	false	true	15529	16168
+259248	46	uni	UniV	3	17	B	2  4	true	true	true	16168	16656
+259249	46	uni	UniV	3	18	B	3  8	false	false	true	16656	17184
+259250	46	uni	UniV	3	19	A	B  V	false	false	true	13416	17896
+259251	46	uni	UniV	3	20	A	M  G	true	true	true	17896	18680
+259252	46	uni	UniV	3	21	A	B  J	true	true	true	18680	19464
+259253	46	uni	UniV	3	22	A	J  R	false	false	true	19464	20064
+259254	46	uni	UniV	3	23	B	4  7	false	false	true	17184	21112
+259255	46	uni	UniV	3	24	B	3  8	false	false	true	21112	21808
+259256	46	uni	UniV	3	25	B	2  9	false	false	true	21809	22360
+259257	46	uni	UniV	3	26	B	3  8	false	false	true	22360	22978
+259258	46	uni	UniV	3	27	A	J  B	true	true	true	20064	23640
+259259	46	uni	UniV	3	28	A	B  J	true	true	true	23640	24168
+259260	46	uni	UniV	3	29	A	J  B	true	true	true	24168	24680
+259261	46	uni	UniV	3	30	A	B  J	true	true	true	24680	25192
+259262	46	uni	UniV	3	31	B	3  5	true	true	true	22979	26224
+259263	46	uni	UniV	3	32	B	5  6	false	false	true	26225	26839
+259264	46	uni	UniV	3	33	B	3  8	false	false	true	26840	27370
+259265	46	uni	UniV	3	34	B	4  7	false	false	true	27370	28024
+259266	46	uni	UniV	3	35	B	5  6	false	false	true	28024	28104
+259267	46	uni	UniV	3	36	A	K  M	false	false	true	25193	30399
+259268	46	uni	UniV	3	37	A	M  G	true	true	true	30401	31031
+259269	46	uni	UniV	3	38	A	L  M	false	false	true	31032	31647
+259270	46	uni	UniV	3	39	A	G  H	false	false	true	31648	32440
+259271	46	uni	UniV	3	40	B	7  9	true	true	true	28104	33775
+259272	46	uni	UniV	3	41	B	3  5	true	true	true	33776	34336
+259273	46	uni	UniV	3	42	B	2  4	true	true	true	34337	34847
+259274	46	uni	UniV	3	43	B	3  8	false	false	true	34848	35383
+259275	46	uni	UniV	3	44	A	M  R	false	false	true	32440	36007
+259276	46	uni	UniV	3	45	A	M  Q	false	false	true	36008	36551
+259277	46	uni	UniV	3	46	A	G  M	true	true	true	36552	37615
+259278	46	uni	UniV	3	47	A	M  G	true	true	true	37616	38135
+259279	46	uni	UniV	3	48	B	2  9	false	false	true	35384	39135
+259280	46	uni	UniV	3	49	B	3  5	true	true	true	39136	39719
+259281	46	uni	UniV	3	50	B	6  8	true	true	true	39720	40295
+259282	46	uni	UniV	3	51	B	2  4	true	true	true	40296	40799
+259283	46	uni	UniV	3	52	A	X  M	false	false	true	38136	41415
+259284	46	uni	UniV	3	53	A	G  M	true	true	true	41416	42103
+259285	46	uni	UniV	3	54	A	M  G	true	true	true	42104	42599
+259286	46	uni	UniV	3	55	A	J  B	true	true	true	42600	43167
+259287	46	uni	UniV	3	56	B	3  8	false	false	true	40800	44079
+259288	46	uni	UniV	3	57	B	4  7	false	false	true	44080	44615
+259289	46	uni	UniV	3	58	B	2  9	false	false	true	44616	45239
+259290	46	uni	UniV	3	59	B	4  7	false	false	true	45240	45807
+259291	46	uni	UniV	3	60	A	J  Y	false	false	true	43168	46847
+259292	46	uni	UniV	3	61	A	W  J	false	false	true	46848	47391
+259293	46	uni	UniV	3	62	A	M  G	true	true	true	47392	48095
+259294	46	uni	UniV	3	63	A	G  M	true	true	true	48096	48687
+259295	46	uni	UniV	3	64	B	7  9	true	true	true	45808	50207
+259296	46	uni	UniV	3	65	B	3  5	true	true	true	50208	50767
+259297	46	uni	UniV	3	66	B	7  9	true	true	true	50768	51303
+259298	46	uni	UniV	3	67	B	6  8	true	true	true	51304	51791
+259299	46	uni	UniV	3	68	A	B  J	true	true	true	48688	52207
+259300	46	uni	UniV	3	69	A	G  M	true	true	true	52208	52951
+259301	46	uni	UniV	3	70	A	M  G	true	true	true	52952	53431
+259302	46	uni	UniV	3	71	A	C  B	false	false	true	53433	54095
+259303	46	uni	UniV	3	72	B	7  9	true	true	true	51792	55191
+259304	46	uni	UniV	3	73	B	3  8	false	false	true	55192	55711
+259305	46	uni	UniV	3	74	B	3  5	true	true	true	55712	56255
+259306	46	uni	UniV	3	75	B	6  8	true	true	true	56258	56911
+259307	46	uni	UniV	3	76	A	G  S	false	false	true	54096	57504
+259308	46	uni	UniV	3	77	A	G  Y	false	false	true	57505	58015
+259309	46	uni	UniV	3	78	A	J  B	true	true	true	58017	58719
+259310	46	uni	UniV	3	79	A	B  J	true	true	true	58720	59215
+259311	46	uni	UniV	3	80	B	4  7	false	false	true	56912	60879
+259312	46	uni	UniV	3	81	B	5  6	false	true	false	60880	61439
+259313	46	uni	UniV	3	82	B	7  9	true	true	true	61440	62095
+259314	46	uni	UniV	3	83	B	6  8	true	true	true	62097	62655
+259315	46	uni	UniV	3	84	A	J  C	false	false	true	59216	62991
+259316	46	uni	UniV	3	85	A	Y  B	false	false	true	62992	64079
+259317	46	uni	UniV	3	86	A	J  B	true	true	true	64080	64671
+259318	46	uni	UniV	3	87	A	B  H	false	false	true	64672	65497
+259319	46	uni	UniV	3	88	B	7  9	true	true	true	62656	66471
+259320	46	uni	UniV	3	89	B	3  5	true	true	true	66472	67039
+259321	46	uni	UniV	3	90	B	2  4	true	true	true	67040	67631
+259322	46	uni	UniV	3	91	B	3  8	false	false	true	67632	68247
+259323	46	uni	UniV	3	92	B	3  5	true	true	true	68247	68823
+259324	46	uni	UniV	3	93	A	X  J	false	false	true	65498	69319
+259325	46	uni	UniV	3	94	A	N  B	false	false	true	69320	69951
+259326	46	uni	UniV	3	95	A	B  S	false	false	true	69952	71023
+259327	46	uni	UniV	3	96	A	M  G	true	true	true	71024	71671
+259328	46	uni	UniV	3	97	A	B  J	true	true	true	71672	72247
+259329	46	uni	UniV	3	98	B	4  7	false	false	true	68824	73319
+259330	46	uni	UniV	3	99	B	7  9	true	true	true	73319	73943
+259331	46	uni	UniV	3	100	B	2  9	false	false	true	73943	74615
+259332	46	uni	UniV	3	101	B	2  4	true	true	true	74615	75143
+259333	46	uni	UniV	3	102	B	4  7	false	false	true	75146	76015
+259334	46	uni	UniV	3	103	B	3  8	false	false	true	76015	76591
+259335	46	uni	UniV	3	104	B	5  6	false	false	true	76592	77231
+259336	46	uni	UniV	3	105	A	G  M	true	true	true	72248	78343
+259337	46	uni	UniV	3	106	A	S  B	false	false	true	78343	79087
+259338	46	uni	UniV	3	107	A	J  B	true	true	true	79088	79751
+259339	46	uni	UniV	3	108	A	M  G	true	true	true	79751	80303
+259340	46	uni	UniV	3	109	B	2  9	false	false	true	77234	81935
+259341	46	uni	UniV	3	110	B	6  8	true	true	true	81935	82495
+259342	46	uni	UniV	3	111	B	7  9	true	true	true	82495	83383
+259343	46	uni	UniV	3	112	B	2  4	true	true	true	83383	83951
+259344	46	uni	UniV	3	113	A	J  B	true	true	true	80303	84967
+259345	46	uni	UniV	3	114	A	G  M	true	true	true	84967	85607
+259346	46	uni	UniV	3	115	A	J  B	true	true	true	85607	86289
+259347	46	uni	UniV	3	116	A	D  M	false	false	true	86290	86879
+259348	46	uni	UniV	3	117	B	3  5	true	true	true	83951	88160
+259349	46	uni	UniV	3	118	B	2  4	true	true	true	88161	88631
+259350	46	uni	UniV	3	119	B	3  8	false	false	true	88631	89231
+259351	46	uni	UniV	3	120	B	4  7	false	false	true	89231	89816
+259352	46	uni	UniV	3	121	A	G  M	true	true	true	86880	90439
+259353	46	uni	UniV	3	122	A	B  J	true	true	true	90439	91087
+259354	46	uni	UniV	3	123	A	G  M	true	true	true	91087	91743
+259355	46	uni	UniV	3	124	A	B  R	false	false	true	91743	92303
+259356	46	uni	UniV	3	125	B	2  9	false	false	true	89817	93663
+259357	46	uni	UniV	3	126	B	3  5	true	true	true	93663	94223
+259358	46	uni	UniV	3	127	B	2  4	true	true	true	94223	94791
+259359	46	uni	UniV	3	128	B	5  6	false	false	true	94791	95375
+259360	46	uni	UniV	3	129	A	B  J	true	true	true	92303	95727
+259361	46	uni	UniV	3	130	A	Q  B	false	false	true	95727	96278
+259362	46	uni	UniV	3	131	A	H  J	false	false	true	96279	96975
+259363	46	uni	UniV	3	132	A	B  N	false	false	true	96976	97622
+259364	46	uni	UniV	3	133	B	7  9	true	true	true	95375	98934
+259365	46	uni	UniV	3	134	B	3  5	true	true	true	98937	99502
+259366	46	uni	UniV	3	135	B	4  7	false	false	true	99503	100046
+259367	46	uni	UniV	3	136	B	2  4	true	true	true	100047	100510
+259368	46	uni	UniV	3	137	A	J  Q	false	false	true	97623	101399
+259369	46	uni	UniV	3	138	A	C  B	false	false	true	101399	102030
+259370	46	uni	UniV	3	139	A	J  B	true	true	true	102031	102782
+259371	46	uni	UniV	3	140	A	M  G	true	true	true	102783	103326
+259372	46	uni	UniV	3	141	A	M  V	false	false	true	103327	103929
+259373	46	uni	UniV	3	142	A	G  M	true	true	true	103929	104598
+259374	46	uni	UniV	3	143	B	3  5	true	true	true	100511	105542
+259375	46	uni	UniV	3	144	B	5  6	false	false	true	105543	106055
+259376	46	uni	UniV	3	145	B	3  8	false	false	true	106055	106638
+259377	46	uni	UniV	3	146	B	5  6	false	false	true	106640	107406
+259378	46	uni	UniV	3	147	B	4  7	false	false	true	107407	108006
+259379	46	uni	UniV	3	148	A	B  J	true	true	true	104599	108422
+259380	46	uni	UniV	3	149	A	W  G	false	false	true	108423	109102
+259381	46	uni	UniV	3	150	A	B  K	false	false	true	109103	109766
+259382	46	uni	UniV	3	151	A	J  B	true	true	true	109767	110278
+259383	46	uni	UniV	3	152	A	G  M	true	true	true	110279	111046
+259384	46	uni	UniV	3	153	A	B  J	true	true	true	111047	111678
+259385	46	uni	UniV	3	154	A	M  G	true	true	true	111680	112198
+259386	46	uni	UniV	3	155	B	6  8	true	true	true	108007	113726
+259387	46	uni	UniV	3	156	B	2  4	true	true	true	113728	114247
+259388	46	uni	UniV	3	157	B	7  9	true	false	false	114247	114926
+259389	46	uni	UniV	3	158	B	6  8	true	true	true	114927	115758
+259390	46	uni	UniV	3	159	B	3  8	false	false	true	115759	116310
+259391	46	uni	UniV	3	160	B	2  4	true	true	true	116311	116856
+259392	46	uni	UniV	3	161	B	6  8	true	true	true	116857	117590
+259393	46	uni	UniV	3	162	A	S  J	false	false	true	112199	118590
+259394	46	uni	UniV	3	163	A	G  M	true	true	true	118591	119214
+259395	46	uni	UniV	3	164	A	B  J	true	true	true	119215	119870

@@ -1,0 +1,8 @@
+{
+  "participant_id": {
+    "Description": "BIDS participant identifier."
+  },
+  "VP": {
+    "Description": "Participant number in the OSF source file."
+  }
+}

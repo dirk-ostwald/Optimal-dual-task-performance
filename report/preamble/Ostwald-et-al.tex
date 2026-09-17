@@ -1,0 +1,39 @@
+\usepackage{soul}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{stmaryrd}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{fvextra}
+\allowdisplaybreaks
+\DeclareMathOperator*{\argmax}{arg\,max}
+\AddToHook{env/proof/begin}{\footnotesize}
+\AddToHook{env/proof/end}{\par\nobreak\noindent}
+\AtBeginDocument{%
+  \ifcsname c@definition\endcsname
+    \counterwithout{definition}{section}%
+  \fi
+}
+\AtBeginDocument{%
+  \ifcsname c@theorem\endcsname
+    \counterwithout{theorem}{section}%
+  \fi
+}
+\captionsetup{
+  font = small,
+  format = plain,
+  labelfont = bf,
+  labelsep = period,
+  justification = justified,
+  singlelinecheck = false
+}
+\DeclarePairedDelimiter{\ib}{\llbracket}{\rrbracket}
+
+% Distinct font sizes for the three main heading levels.
+\setkomafont{section}{\Large}
+\setkomafont{subsection}{\large}
+\setkomafont{subsubsection}{\normalsize\bfseries}
+\setkomafont{paragraph}{\normalsize}
+\setkomafont{subparagraph}{\normalsize}

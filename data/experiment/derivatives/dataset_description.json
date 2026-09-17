@@ -1,0 +1,24 @@
+{
+  "Name": "FCDT trial-by-trial ABM derivatives - Experiment 1 of Brüning et al. (2020)",
+  "BIDSVersion": "1.11.1",
+  "DatasetType": "derivative",
+  "Authors": [
+    "Jovita Brüning",
+    "Marie Mückstein",
+    "Dietrich Manzey"
+  ],
+  "HowToAcknowledge": "Please cite Brüning, Mückstein, and Manzey (2020).",
+  "GeneratedBy": [
+    {
+      "Name": "abm_preparation.py",
+      "Description": "Local conversion from FCDT BIDS response-level TSV files for Experiment 1 of Brüning et al. (2020) to flat participant-level tab-separated derivative CSV files."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "../bids",
+      "Description": "Local BIDS behavioral dataset generated from the OSF source files."
+    }
+  ],
+  "FileOrganization": "Participant-level tab-separated derivative CSV files are stored directly in this Derivatives directory as sub-                   ###.csv. The generated design.json file documents participant- and block-specific task configurations. Stimulus material inherited from the source BIDS dataset and the generated stimuli.csv catalogue are stored in stimuli/."
+}
