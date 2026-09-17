@@ -1,4 +1,4 @@
-                                                                  # FCDT trial-by-trial derivative dataset
+# FCDT trial-by-trial derivative dataset
 
 This derivative dataset contains the trial-by-trial FCDT data from
 Experiment 1 of Brüning et al. (2020).
@@ -7,7 +7,7 @@ It was generated from the local FCDT BIDS behavioral dataset by
 `abm_preparation.py`.
 
 Participant-level trial-by-trial derivative files are stored directly in this
-directory as tab-separated `sub-                                               ###.csv` files. The files use compact analysis
+directory as tab-separated `sub-###.csv` files. The files use compact analysis
 column names:
 
 `P`, `R`, `B`, `C`, `T`, `O`, `t`, `sA`, `sB`, `a1`, `a2`, `a_t`, `r`, `RT`.
