@@ -15,9 +15,12 @@ def abm_figure(plt):                                                            
     """
     cfg = {                                                                     # shared publication style
     'font.family'      : 'serif',                                               # primary font family
-    'font.serif'       : 'Computer Modern Serif',                               # serif typeface
+    'font.serif'       : 'CMU Serif',                                           # serif typeface
+    'font.weight'      : 500,                                                   # CMU Roman weight
     'mathtext.fontset' : 'cm',                                                  # Computer Modern mathematics
     'text.usetex'      : True,                                                  # LaTeX text rendering
+    'axes.labelweight' : 500,                                                   # CMU axis-label weight
+    'axes.titleweight' : 500,                                                   # CMU axis-title weight
     'axes.spines.top'  : False,                                                 # omit upper axis spine
     'axes.spines.right': False}                                                 # omit right axis spine
     plt.rcParams.update(cfg)                                                    # apply shared settings

@@ -1700,24 +1700,48 @@ for every participant despite the penalty for its three fitted parameters.
 
 \clearpage
 
-![Participant-specific maximum-likelihood estimates for agent A1. Panel A
-shows $\hat{\tau}$ against $\hat{\sigma}$, Panel B shows $\hat{\tau}$ against
-$\hat{\beta}$, and Panel C shows $\hat{\sigma}$ against $\hat{\beta}$. The
-ordinate in Panels B and C uses symmetric logarithmic scaling with a linear
-region near zero. Each point represents one participant. For details, please
-refer to \mbox{\textit{abm\_figure\_3.py}}.][par-est]{#fig-par-est
+![Conditional log-likelihood surfaces and participant-specific parameter
+estimates for agent A1. Panels A--C show the log likelihood as a function of
+$\beta$ and $\sigma$ for sub-008, sub-046, and sub-011, respectively. In each
+panel, $\tau$ is fixed at the jointly estimated value shown above the
+surface. Parameter ranges and color scales are participant-specific, and
+Panel A uses a logarithmic $\beta$ axis. Colors display the highest 30
+log-likelihood units, with lower values saturated at the lower color limit.
+Contours indicate decreases of 0.5, 2, 5, 10, and 20 units from the grid
+maximum. White crosses mark the highest evaluated grid values. Panels D--F
+show the original joint estimates for all participants, with $\hat{\tau}$
+on the abscissa and $\hat{\sigma}$ on the ordinate in Panel D, $\hat{\tau}$
+and $\hat{\beta}$ in Panel E, and $\hat{\sigma}$ and $\hat{\beta}$ in Panel F.
+Each point represents one participant. The ordinates in Panels E and F use
+symmetric logarithmic scaling with a linear region near zero. For
+implementational details, please refer to
+\mbox{\textit{abm\_likelihood.py}} and
+\mbox{\textit{abm\_figure\_3.py}}.][par-est]{#fig-par-est
 fig-pos="H" width="100%"}
 
 [par-est]: ../figures/abm_figure_3.pdf
 
-@fig-par-est shows the participant-specific maximum-likelihood estimates of
-$\tau$, $\sigma$, and $\beta$. The estimates vary considerably across
-participants. Panel C shows several large positive estimates of $\beta$ at
-the boundary $\hat{\sigma} = 0$. These estimates occur for participants with
-nearly balanced task allocations and frequent task switching. They are
-consistent with a strong estimated cost of task imbalance in the absence of
-a switching cost, although their magnitude may be weakly identified once the
-model predicts balance-restoring choices almost deterministically.
+Panels A--C of @fig-par-est show conditional log-likelihood
+surfaces in $\beta$ and $\sigma$, with $\tau$ fixed at its jointly estimated
+value. These surfaces illustrate different patterns of parameter
+sensitivity. For sub-008, the log likelihood approaches a plateau as
+$\beta$ increases at the boundary $\sigma = 0$, but decreases sharply as
+$\sigma$ increases. Thus, the surface distinguishes small from sufficiently
+large imbalance costs while providing little information about the
+magnitude of $\beta$ within the plateau. For sub-046 and sub-011, the
+surfaces exhibit more localized peaks and curved ridges, along which
+changes in the imbalance and switching costs partially compensate for one
+another. For implementational details, please refer to
+\mbox{\textit{abm\_likelihood.py}}.
+
+Panels D--F of @fig-par-est show substantial variation in the estimates
+across participants. Panel F includes several large positive estimates of
+$\beta$ at the boundary $\hat{\sigma} = 0$. These estimates occur for
+participants with nearly balanced task allocations and frequent task
+switching. They are consistent with a strong estimated cost of task
+imbalance in the absence of a switching cost. However, the plateau
+illustrated for sub-008 cautions against interpreting the precise magnitude
+of such large estimates.
 
 These results are to be understood as preliminary. A proper assessment of the
 model would require face-validity simulations that reproduce the descriptive
