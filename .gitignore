@@ -37,3 +37,6 @@ pip-wheel-metadata/
 .idea/
 .DS_Store
 Thumbs.db
+
+# PowerPoint lock files
+~$*

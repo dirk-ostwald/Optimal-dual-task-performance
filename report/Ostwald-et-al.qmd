@@ -197,7 +197,7 @@ or switching.
 In the authors' analyzed
 sample of 46 participants, the classification under high resource competition,
 which included this task combination, identified approximately 25 'blockers',
-15 'switchers', and six 'response groupers', illustrating the response
+15 'switchers', and 6 'response groupers', illustrating the response
 strategies described in the Introduction [@bruning2020, Figure 3].
 For implementational details, please refer to
 \mbox{\textit{abm\_description.py}}.
@@ -207,7 +207,7 @@ For implementational details, please refer to
 \renewcommand{\thefigure}{\arabic{figure}A}
 \renewcommand{\theHfigure}{\arabic{figure}A}
 
-![Behavior of a single participant on the PTD-RMC task. The upper panel depicts
+![Behavior of participant 008 on the PTD-RMC task. The upper panel depicts
 the task dynamics during the first 30 trials of the first PTD-RMC block. The
 lower panel depicts all trials across all PTD-RMC blocks. Trial indices start
 at 0 in both panels, with the upper panel showing trials 0 to 29 and the lower
@@ -513,7 +513,7 @@ the maximum observed action count is 245. Thus, the largest imbalance set is of
 cardinality $|B| = 2 \cdot 245 + 1 = 491$ which for the state space yields a 
 cardinality of 
 \begin{equation}
-|S| = 18 \cdot 8 \cdot \left(1 + 2 \cdot 513\right) = 141{,}552.
+|S| = 18 \cdot 8 \cdot \left(1 + 2 \cdot 491\right) = 141{,}552.
 \end{equation}
 
 ### Action set {#sec-action-set}
@@ -586,6 +586,7 @@ onset, so direct-repetition exclusion does not apply to the initial
 identifiers. The initial-state convention is encoded by restricting the
 distribution to $S_0$. We thus define the initial state distribution as
 \begin{equation}
+\label{eq:initial-state-distribution}
 p(s_0) := \prod_{j = 1}^{2}
 \left(\frac{1}{2}\frac{\ib{s_0^{j,2}\in I_{j,s_0^{j,1}}}}{n_{j,s_0^{j,1}}}
 \right)
@@ -668,20 +669,23 @@ s_{t+1}^4 = s_t^4 + \Delta(a_t)
 \end{multline}
 *Consistency with the task construction*
 
-The following theorem verifies that the conditional probabilities in
+@thm-state-conditional-consistency verifies that the conditional probabilities in
 \eqref{eq:state-action-conditional-state-distribution} implement the
 construction above. Property (1) establishes normalization and equal label
 probabilities. Property (2) establishes uniform identifier sampling with direct
 repetition excluded. Property (3) establishes the unchanged unselected stimulus
 and the deterministic updates of previous-task identity and task imbalance.
 
-\begin{theorem}[Consistency of the state-action conditional state distribution]
-For $j\in\{1,2\}$, assume $n_{j,l}>1$ for both $l\in\{0,1\}$. For any state $s_t$ 
+::: {#thm-state-conditional-consistency}
+## Consistency of the state-action conditional state distribution
+
+For $j\in\{1,2\}$, assume $n_{j,l}>1$ for both $l\in\{0,1\}$. For any state $s_t$
 with $|s_t^4|<n$ and any action $a_t\in A^j$, the specified conditional
 probabilities form a
 probability mass function that encodes the following properties:
 
-1. The conditional probabilities sum to one. Conditional on the
+\begin{enumerate}
+\item The conditional probabilities sum to one. Conditional on the
 selected action, the label of the new stimulus in the selected task stream is
 independent of the previous stimulus and takes either value with probability
 $1/2$, i.e.,
@@ -690,12 +694,13 @@ p\left(s_{t+1}^{j,1} = l | s_t, a_t\right) = \frac{1}{2}
 \mbox{ for } l\in\{0,1\}.
 \end{equation}
 
-2. Conditional on the new label, the previous state, and the selected action,
+\item Conditional on the new label, the previous state, and the selected action,
 the new identifier is distributed uniformly over the corresponding
 label-specific identifier set with the previous identifier excluded. This admissible set is $I_{j,l}\setminus\{s_t^{j,2}\}$ and contains
 $n_{j,l}-\ib{s_t^{j,2}\in I_{j,l}}$ identifiers, which need not be
-consecutive integers. Its conditional probability mass function does not additionally depend on the
-previous label, i.e., for $l\in\{0,1\}$ and $i\in I_j$,
+consecutive integers. Its conditional probability mass function depends on the
+previous state only through the previous identifier $s_t^{j,2}$, i.e., for
+$l\in\{0,1\}$ and $i\in I_j$,
 \begin{equation}
 p\left(s_{t+1}^{j,2} = i | s_{t+1}^{j,1} = l,s_t,a_t\right) = \begin{cases}
 \frac{1}{n_{j,l}-\ib{s_t^{j,2}\in I_{j,l}}}
@@ -704,15 +709,18 @@ p\left(s_{t+1}^{j,2} = i | s_{t+1}^{j,1} = l,s_t,a_t\right) = \begin{cases}
 \end{cases}
 \end{equation}
 
-3. For any state $s_t$ with $|s_t^4| < n$ and action $a_t \in A^j$, the stimulus of 
-the unselected task remains unchanged, the previously executed task becomes 
+\item For any state $s_t$ with $|s_t^4| < n$ and action $a_t \in A^j$, the stimulus of
+the unselected task remains unchanged, the previously executed task becomes
 $j$, and the task imbalance changes by $\Delta(a_t)$. Specifically,
 \begin{equation}
 p\left(s_{t+1}^{3-j} = s_t^{3-j},s_{t+1}^{3} = j,s_{t+1}^{4} = s_t^4 + \Delta(a_t) | s_t,a_t\right) = 1.
 \end{equation}
-\end{theorem}
+\end{enumerate}
 
-\begin{proof}
+\hfill $\blacksquare$
+:::
+
+::: {.proof}
 
 We show each property in turn.
 
@@ -844,9 +852,10 @@ the numerator and denominator. In (6), the label-membership Iverson bracket
 restricts the effective summation domain from $I_j$ to $I_{j,l}$ and is then
 omitted. Step (7) evaluates the remaining sum as
 $n_{j,l}-\ib{s_t^{j,2}\in I_{j,l}}$. Its reciprocal is the uniform probability assigned to each admissible
-identifier in Property (2). Because the result depends on the previous stimulus only through its
-identifier $s_t^{j,2}$, it does not additionally depend on the previous label
-$s_t^{j,1}$. This proves Property (2).
+identifier in Property (2). The result depends on the previous stimulus only
+through its identifier $s_t^{j,2}$. Note that the previous label carries no
+information beyond the identifier, because $s_t^{j,1} = \kappa_{j}(s_t^{j,2})$
+by the definition of $S^j$. This proves Property (2).
 
 
 \noindent \textit{Proof of Property (3)}
@@ -861,7 +870,7 @@ All other successor states have probability zero. Since the transition
 probabilities sum to one by Property (1), the displayed updates hold jointly
 with probability one.
 
-\end{proof}
+:::
 
 As a descriptive validation of the experimental state model, we compared the
 observed PTD and RMC transition frequencies with frequencies generated from
@@ -905,18 +914,28 @@ given. Together, these determine which task was completed and whether the
 response was correct. The conditional reward distribution therefore assigns
 probability one to the corresponding outcome vector $\varrho(s,a)$ and
 probability zero to every other reward value.
+Explicitly, it is
+\begin{equation}
+\label{eq:state-action-conditional-reward-distribution}
+p(r_{t+1}|s_t,a_t) := \ib{r_{t+1} = \varrho(s_t,a_t)}.
+\end{equation}
 
 This also determines the joint conditional distribution of the next state and
 reward, as introduced in S1. For a given current state and action, the
 probability of a particular next state together with the prescribed reward is
 simply the probability of that next state. Any combination involving a different
-reward has probability zero. Thus, specifying $\varrho$ and the state-action
-conditional state distribution already specifies the joint state-reward
-distribution, which need not appear as a separate component of the task-model
-tuple. This conditional determinism does not imply that rewards are constant
-across trials. The outcome vector changes with the selected task and response
-accuracy, and rewards can be uncertain when the current state or selected action
-is not given.
+reward has probability zero. Consequently,
+\begin{equation}
+\label{eq:conditional-state-reward-factorization}
+p(r_{t+1},s_{t+1}|s_t,a_t)
+= p(r_{t+1}|s_t,a_t)p(s_{t+1}|s_t,a_t).
+\end{equation}
+Thus, specifying $\varrho$ and the state-action conditional state distribution
+already specifies the joint state-reward distribution, which need not appear as
+a separate component of the task-model tuple. This conditional determinism does
+not imply that rewards are constant across trials. The outcome vector changes
+with the selected task and response accuracy, and rewards can be uncertain when
+the current state or selected action is not given.
 
 The instructions and monetary incentives described for the
 [PTD-RMC-FCDT paradigm](#sec-the-ptd-rmc-fcdt-paradigm) motivate the
@@ -954,7 +973,8 @@ policy determines the agent's decisions.
 The subjective reward expresses the agent's preference for correct responses and
 balanced task completion, together with the cost it assigns to switching between
 tasks. We represent these optimization goals by an additive reward function with
-imbalance parameter $\beta \ge 0$ and switching-cost parameter $\sigma \ge 0$,
+imbalance parameter $\beta \in \mathbb{R}$ and switching-cost parameter
+$\sigma \ge 0$,
 \begin{equation}
 \rho_{\beta,\sigma} : S \times A \to \mathbb{R}, (s,a) \mapsto \rho_{\beta,\sigma}(s,a) := \rho(s,a) + \rho_{\beta}(s,a) + \rho_{\sigma}(s,a),
 \end{equation}
@@ -988,10 +1008,13 @@ with
 \end{equation}
 
 For states reached before the horizon boundary, $s^4 + \Delta(a)$ is the
-imbalance after the selected action. The component therefore assigns a cost
+imbalance after the selected action. The component therefore assigns a value
 proportional to its absolute value, with $\beta$ determining the strength of
-this preference. The instruction to give both tasks equal priority motivates the
-balance component. Its linear form and weight are modeling assumptions.
+this preference. Positive values of $\beta$ penalize task imbalance, whereas
+negative values reward it. We leave the sign of $\beta$ unrestricted so that
+its direction is determined by the data rather than imposed a priori. The
+instruction to give both tasks equal priority motivates the balance component.
+Its linear form and weight are modeling assumptions.
 
 *Task switching*
 
@@ -1041,7 +1064,7 @@ unreduced internal MDP, denoted by $\mathcal{M}_{\beta,\sigma}$. This decision
 problem uses the scalar subjective reward rather than the task's vector-valued
 performance outcomes. We reduce it in three steps, retaining the information
 needed to derive optimal decisions. The argument below explains each step
-intuitively. The [following theorem](#thm-fcdt-reduction) defines both MDPs and
+intuitively. @thm-fcdt-reduction defines both MDPs and
 states the preservation of optimal values and optimality under action lifting.
 
 For the intermediate reductions, we consider the regular state space $S_+$
@@ -1150,9 +1173,10 @@ also contains the single reduced initial state.
 *Reduced policies and action lifting*
 
 The resulting planning problem has $2(2n + 1)$ regular reduced states and two
-abstract actions. With the illustrative imbalance bound $N = 256$, there are
-$2(2N + 1) = 1026$ regular reduced states. The initial state adds one further
-reduced state, while the participant- and block-specific horizon remains $n$.
+abstract actions. For the largest observed action count $n = 245$, this gives
+$2(2 \cdot 245 + 1) = 982$ regular reduced states. The initial state adds one
+further reduced state, while the participant- and block-specific horizon
+remains $n$.
 For regular task states, the action probabilities $\pi_t(s,a)$ of an unreduced
 stochastic policy are evaluated on $S_+ \times A$. Their reduced counterparts
 $\pi_{\chi,t}(s,a)$ are evaluated on $S_{\chi,+} \times A_{\chi}$. For each
@@ -1175,11 +1199,11 @@ The resulting agent decisions select correct task actions.
 The following theorem defines the unreduced and reduced decision problems and
 states the preservation of optimal values and optimality under action lifting.
 
-\begin{theorem}[Reduced FCDT-MDP and preservation of optimality]
-\label{thm-fcdt-reduction}
-\normalfont
+::: {#thm-fcdt-reduction}
+## Reduced FCDT-MDP and preservation of optimality
+
 Let $\mathcal{T}$ be the PTD-RMC task model with horizon $n$, and let
-$\beta,\sigma \ge 0$. Combining its dynamics with the subjective reward
+$\beta \in \mathbb{R}$ and $\sigma \ge 0$. Combining its dynamics with the subjective reward
 $\rho_{\beta,\sigma}$ defines the \textit{unreduced FCDT-MDP}
 \begin{equation}
 \mathcal{M}_{\beta,\sigma} := \left(J,S,A,R,p(s_0),p(s_{t+1}|s_t,a_t),\rho_{\beta,\sigma}\right),
@@ -1285,7 +1309,9 @@ for $t = 0,\ldots,n-1$, define an optimal policy for
 $\mathcal{M}_{\beta,\sigma}$. This holds for any selection among tied optimal
 reduced actions and does not require the optimal policy to be unique.
 \end{enumerate}
-\end{theorem}
+
+\hfill $\blacksquare$
+:::
 
 \hl{Proof}
 
@@ -1313,12 +1339,13 @@ the response component. The lifted decision function is therefore
 \begin{equation}
 \delta_t^* : S \to D, s \mapsto \delta_t^*(s) := \lambda\left(s,\delta_{\chi,t}^*(\chi(s))\right).
 \end{equation}
-By the [reduction theorem](#thm-fcdt-reduction), these lifted decision functions
+By @thm-fcdt-reduction, these lifted decision functions
 define an optimal policy for the unreduced internal MDP. The same construction
 applies to initial and regular task states.
 
 For $s_t \in S$ and $d_t \in D$, the agent's conditional decision PMF is
 \begin{equation}
+\label{eq:state-conditional-decision-distribution}
 p_{\beta,\sigma}(d_t|s_t) := \ib{d_t = \delta_t^*(s_t)},
 \end{equation}
 for $t = 0,\ldots,n-1$. It assigns probability one to the selected optimal
@@ -1369,10 +1396,11 @@ the unreduced FCDT-MDP. It combines the current subjective reward with optimal
 continuation over the remaining horizon. For $s_t \in S$, $a_t \in A$, and
 $t = 0,\ldots,n-1$, we define the conditional response PMF by
 \begin{equation}
+\label{eq:state-conditional-action-distribution}
 p_{\beta,\sigma,\tau}(a_t|s_t)
 := 
 \frac{\exp\left(q_t^*(s_t,a_t;\beta,\sigma)/\tau\right)}
-     {\sum_{a_t} \exp\left(q_t^*(s_t,a_t;\beta,\sigma)/\tau\right)}.
+     {\sum_{a \in A} \exp\left(q_t^*(s_t,a;\beta,\sigma)/\tau\right)}.
 \end{equation}
 The temperature parameter $\tau > 0$ determines how strongly differences
 in optimal action values affect response probabilities. Smaller values
@@ -1392,20 +1420,41 @@ selected optimal decision $d_t$.
 
 For one participant, let $b = 1,\ldots,m$ index the experimental blocks and
 let $n_b$ denote the observed number of actions in block $b$. For the
-PTD+RMC condition, $m = 6$. We model the blocks as independent conditional
+PTD-RMC condition, $m = 6$. We model the blocks as independent conditional
 on their shared parameter vector and fixed experimental designs. Each
 block starts from its own initial-state distribution, with no state carried
 across block boundaries. The designs and horizons are treated as given.
 
-Taken together, the specification of the task model's initial state distribution,
-state-action conditional state distribution, and state-and action conditional reward 
-distribution,the agent's state-conditional decision distribution and the data 
-model's decision-conditional action distribution imply the joint distribution
+Let $\theta := (\beta,\sigma,\tau)$ and write
+$p_\theta(a_t|s_t) := p_{\beta,\sigma,\tau}(a_t|s_t)$. As specified in
+\eqref{eq:state-conditional-action-distribution}, the observed action depends
+on the state through the complete optimal action-value function. It does not
+depend additionally on the optimal decision $d_t$. Thus, the observed action
+and latent decision are conditionally independent given the state:
+\begin{equation}
+\label{eq:action-decision-conditional-independence}
+p_\theta(a_t,d_t|s_t)
+:= p_\theta(a_t|s_t)p_{\beta,\sigma}(d_t|s_t).
+\end{equation}
+Equivalently, $p_\theta(a_t|s_t,d_t) = p_\theta(a_t|s_t)$ whenever the
+conditioning event has positive probability.
+
+The initial-state distribution in
+\eqref{eq:initial-state-distribution}, state transition in
+\eqref{eq:state-action-conditional-state-distribution}, reward distribution
+in \eqref{eq:state-action-conditional-reward-distribution}, decision
+distribution in \eqref{eq:state-conditional-decision-distribution}, and action
+distribution in \eqref{eq:state-conditional-action-distribution}, together
+with the factorizations in
+\eqref{eq:conditional-state-reward-factorization} and
+\eqref{eq:action-decision-conditional-independence}, imply the joint
+distribution
 \begin{multline}
+\label{eq:abm-joint-distribution}
 p_\theta\left((s_{b,0:n_b-1},d_{b,0:n_b-1},a_{b,0:n_b-1},r_{b,1:n_b})_{b = 1}^{m}\right) \\
 = \prod_{b = 1}^{m} \left(
-p_0(s_{b,0}) \prod_{t = 0}^{n_b-1}
-p_{\beta,\sigma}(d_{b,t}|s_{b,t})\,p_\theta(a_{b,t}|s_{b,t},d_{b,t})\,p(r_{b,t+1}|s_{b,t},a_{b,t})
+p(s_{b,0}) \prod_{t = 0}^{n_b-1}
+p_{\beta,\sigma}(d_{b,t}|s_{b,t})\,p_\theta(a_{b,t}|s_{b,t})\,p(r_{b,t+1}|s_{b,t},a_{b,t})
 \prod_{t = 0}^{n_b-2} p(s_{b,t+1}|s_{b,t},a_{b,t})
 \right).
 \end{multline}
@@ -1421,19 +1470,11 @@ We estimate the parameters of the ABM by means of maximum likelihood. To this
 end, we first define the nature of maximum likelihood estimation for this ABM.
 
 ::: {#def-sequential-conditional-maximum-likelihood-estimation}
-### Sequential conditional maximum likelihood estimation
+## Sequential conditional maximum likelihood estimation
 
 With the block structure specified in the
-[Agentic behavioral model](#sec-abm-joint-distribution) section, let
-\begin{multline}
-p_\theta\left((s_{b,0:n_b-1},d_{b,0:n_b-1},a_{b,0:n_b-1},r_{b,1:n_b})_{b = 1}^{m}\right) \\
-= \prod_{b = 1}^{m} \left(
-p_0(s_{b,0}) \prod_{t = 0}^{n_b-1}
-p_{\beta,\sigma}(d_{b,t}|s_{b,t})\,p_\theta(a_{b,t}|s_{b,t},d_{b,t})\,p(r_{b,t+1}|s_{b,t},a_{b,t})
-\prod_{t = 0}^{n_b-2} p(s_{b,t+1}|s_{b,t},a_{b,t})
-\right)
-\end{multline}
-denote the ABM, with parameter vector $\theta := (\beta,\sigma,\tau)$,
+[Agentic behavioral model](#sec-abm-joint-distribution) section, let the ABM
+be given by the joint distribution in \eqref{eq:abm-joint-distribution}, with
 parameter space
 \begin{equation}
 \Theta := \{(\beta,\sigma,\tau) \in \mathbb{R}^3 : \sigma \ge 0,\ \tau > 0\},
@@ -1463,10 +1504,10 @@ and its *sequential conditional log-likelihood function* is defined as
 \end{equation}
 A *sequential conditional maximum likelihood estimate* is any
 \begin{equation}
-\hat{\theta} \in \operatorname*{arg\,max}_{\theta \in \Theta} \ell(\theta),
+\hat{\theta} \in \operatorname*{arg\,max}_{\theta \in \Theta} \ell(\theta).
 \end{equation}
-a rule selecting such a maximizer as a function of the observed data defines a 
-*sequential conditional maximum likelihood estimator*. 
+A rule selecting such a maximizer as a function of the observed data defines a
+*sequential conditional maximum likelihood estimator*.
 
 :::
 
@@ -1476,10 +1517,10 @@ general partial-likelihood construction of @cox1975. For a contemporary
 exposition of this construction, see @reid2024.
 
 ::: {#thm-sequential-conditional-log-likelihood}
-### Functional form of the ABM's sequential conditional log likelihood
+## Functional form of the ABM's sequential conditional log-likelihood
 
 Given the definitions in @def-sequential-conditional-maximum-likelihood-estimation, 
-the functional form of the sequential conditional log likelihood is given by
+the functional form of the sequential conditional log-likelihood is given by
 \begin{equation}
 \begin{aligned}
 \ell(\theta) & = \ln\left(\prod_{b = 1}^{m} p_\theta(a_{b,0:n_b-1}\Vert s_{b,0:n_b-1},r_{b,1:n_b-1})\right) \\
@@ -1526,60 +1567,60 @@ p_\theta(s_{0:n-1},d_{0:n-1},a_{0:n-1},r_{1:n})
 & \overset{(2)}{ = } \resizebox{0.94\linewidth}{!}{$\displaystyle
 \frac{
 \sum_{d_{0:t}}\sum_{s_{t+1:n-1}}\sum_{d_{t+1:n-1}}
-\sum_{a_{t+1:n-1}}\sum_{r_{t+1:n}} p_0(s_0)
+\sum_{a_{t+1:n-1}}\sum_{r_{t+1:n}} p(s_0)
 \left(\prod_{j = 0}^{n-1}
-p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j,d_j)p(r_{j+1}|s_j,a_j)\right)
+p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j)p(r_{j+1}|s_j,a_j)\right)
 \prod_{j = 0}^{n-2} p(s_{j+1}|s_j,a_j)
 }{
 \sum_{a_t}\sum_{d_{0:t}}\sum_{s_{t+1:n-1}}\sum_{d_{t+1:n-1}}
-\sum_{a_{t+1:n-1}}\sum_{r_{t+1:n}} p_0(s_0)
+\sum_{a_{t+1:n-1}}\sum_{r_{t+1:n}} p(s_0)
 \left(\prod_{j = 0}^{n-1}
-p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j,d_j)p(r_{j+1}|s_j,a_j)\right)
+p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j)p(r_{j+1}|s_j,a_j)\right)
 \prod_{j = 0}^{n-2} p(s_{j+1}|s_j,a_j)
 }$} \\
 & \overset{(3)}{ = } \frac{
-\sum_{d_{0:t}} p_0(s_0)
+\sum_{d_{0:t}} p(s_0)
 \left(\prod_{j = 0}^{t-1}
-p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j,d_j)
+p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j)
 p(r_{j+1}|s_j,a_j)p(s_{j+1}|s_j,a_j)\right)
-p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t,d_t)
+p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t)
 }{
-\sum_{a_t}\sum_{d_{0:t}} p_0(s_0)
+\sum_{a_t}\sum_{d_{0:t}} p(s_0)
 \left(\prod_{j = 0}^{t-1}
-p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j,d_j)
+p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j)
 p(r_{j+1}|s_j,a_j)p(s_{j+1}|s_j,a_j)\right)
-p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t,d_t)
+p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t)
 } \\
 & \overset{(4)}{ = } \frac{
-p_0(s_0)
+p(s_0)
 \left(\prod_{j = 0}^{t-1} p(r_{j+1}|s_j,a_j)p(s_{j+1}|s_j,a_j)\right)
 \left(\sum_{d_{0:t-1}}\prod_{j = 0}^{t-1}
-p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j,d_j)\right)
-\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t,d_t)
+p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j)\right)
+\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t)
 }{
-p_0(s_0)
+p(s_0)
 \left(\prod_{j = 0}^{t-1} p(r_{j+1}|s_j,a_j)p(s_{j+1}|s_j,a_j)\right)
 \left(\sum_{d_{0:t-1}}\prod_{j = 0}^{t-1}
-p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j,d_j)\right)
-\sum_{a_t}\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t,d_t)
+p_{\beta,\sigma}(d_j|s_j)p_\theta(a_j|s_j)\right)
+\sum_{a_t}\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t)
 } \\
 & = \frac{
-\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t,d_t)
+\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t)
 }{
-\sum_{a_t}\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t,d_t)
+\sum_{a_t}\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t)
 } \\
 & = \frac{
-\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t,d_t)
-}{
-\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)
-\sum_{a_t} p_\theta(a_t|s_t,d_t)
-} \\
-& = \frac{
-\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t,d_t)
+\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t)
 }{
 \sum_{d_t} p_{\beta,\sigma}(d_t|s_t)
+\sum_{a_t} p_\theta(a_t|s_t)
 } \\
-& = \sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t,d_t) \\
+& = \frac{
+\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t)
+}{
+\sum_{d_t} p_{\beta,\sigma}(d_t|s_t)
+} \\
+& = \sum_{d_t} p_{\beta,\sigma}(d_t|s_t)p_\theta(a_t|s_t) \\
 & = \sum_{d_t} p_\theta(d_t,a_t|s_t) \\
 & = p_\theta(a_t|s_t).
 \end{align*}
@@ -1606,8 +1647,9 @@ action distributions, and the product and marginalization rules.
 
 We now restore the block index $b$ and combine the block contributions.
 From @def-sequential-conditional-maximum-likelihood-estimation, the
-conditional independence established above, and the response PMF in
-the [Data model](#sec-data-model) section, we then have
+conditional independence in
+\eqref{eq:action-decision-conditional-independence}, and the response PMF in
+\eqref{eq:state-conditional-action-distribution}, we then have
 \begin{align*}
 \ell(\theta) 
 & = \ln\left(\prod_{b = 1}^{m} p_\theta(a_{b,0:n_b-1}\Vert s_{b,0:n_b-1},r_{b,1:n_b-1})\right) \\
@@ -1617,17 +1659,17 @@ the [Data model](#sec-data-model) section, we then have
 & = \sum_{b = 1}^{m} \sum_{t = 0}^{n_b-1}
 \ln\left(
 \frac{\exp\left(q_{b,t}^*(s_{b,t},a_{b,t};\beta,\sigma)/\tau\right)}
-{\sum_{a_{b,t}} \exp\left(q_{b,t}^*(s_{b,t},a_{b,t};\beta,\sigma)/\tau\right)}
+{\sum_{a \in A} \exp\left(q_{b,t}^*(s_{b,t},a;\beta,\sigma)/\tau\right)}
 \right) \\
 & = \sum_{b = 1}^{m} \sum_{t = 0}^{n_b-1}
 \left(
 \ln\left(\exp\left(q_{b,t}^*(s_{b,t},a_{b,t};\beta,\sigma)/\tau\right)\right)
-- \ln\left(\sum_{a_{b,t}} \exp\left(q_{b,t}^*(s_{b,t},a_{b,t};\beta,\sigma)/\tau\right)\right)
+- \ln\left(\sum_{a \in A} \exp\left(q_{b,t}^*(s_{b,t},a;\beta,\sigma)/\tau\right)\right)
 \right) \\
 & = \sum_{b = 1}^{m} \sum_{t = 0}^{n_b-1}
 \left(
 q_{b,t}^*(s_{b,t},a_{b,t};\beta,\sigma)/\tau
-- \ln\left(\sum_{a_{b,t}} \exp\left(q_{b,t}^*(s_{b,t},a_{b,t};\beta,\sigma)/\tau\right)\right)
+- \ln\left(\sum_{a \in A} \exp\left(q_{b,t}^*(s_{b,t},a;\beta,\sigma)/\tau\right)\right)
 \right).
 \end{align*}
 
@@ -1635,7 +1677,7 @@ q_{b,t}^*(s_{b,t},a_{b,t};\beta,\sigma)/\tau
 
 For each participant, the parameters of A1 were estimated jointly by
 sequential conditional maximum likelihood using all observed actions from
-the six PTD+RMC blocks. Correct and incorrect responses were included. A
+the six PTD-RMC blocks. Correct and incorrect responses were included. A
 common parameter vector $\theta := (\beta,\sigma,\tau)$ governed all blocks
 of a participant, with block-specific experimental designs and observed
 horizons treated as given. Writing $\ell_p$ for participant $p$'s sequential 
@@ -1646,10 +1688,10 @@ conditional log-likelihood function, numerical estimation targeted
 where
 \begin{equation}
 \Theta_{\mathrm{num}}
-:= \left\{(\beta,\sigma,\tau) \in \mathbb{R}^3 : \sigma \ge 0,\ e^{-15} \le \tau \le e^{15}\right\}.
+:= \left\{(\beta,\sigma,\tau) \in \mathbb{R}^3 : \sigma \ge 0,\ e^{-15} \le \tau \le e^{15}\right\},
 \end{equation}
-in an agentic log likelihood function implementation (cf. @ostwald2026). The 
-numerical bounds on $\tau$ maintain strictly positive, finite vaulues. The 
+in an agentic log-likelihood function implementation (cf. @ostwald2026). The
+numerical bounds on $\tau$ maintain strictly positive, finite values. The
 parameter $\beta$ was unrestricted in sign, and the boundary $\sigma = 0$ was 
 included in the optimization domain. Optimization used the adaptive Nelder–Mead 
 simplex algorithm (@nelder1965, @gao2012) as implemented in `scipy.optimize.minimize`. 
@@ -1673,8 +1715,8 @@ blocks. For model $M \in \{\mbox{A0},\mbox{A1}\}$, the comparison score was
 \begin{equation}
 \mathrm{BIC}_{p,M} := \widehat{\ell}_{p,M} - \frac{k_M}{2}\ln \nu_p,
 \end{equation}
-where $\widehat{\ell}_{p,M}$ denotes the attained sequential conditional log
-likelihood and $k_M$ the number of fitted parameters. Thus,
+where $\widehat{\ell}_{p,M}$ denotes the attained sequential conditional
+log-likelihood and $k_M$ the number of fitted parameters. Thus,
 $k_{\mbox{A0}} = 0$ and $k_{\mbox{A1}} = 3$. The three parameters of A1 were
 shared across blocks,
 so its complexity penalty reflected three participant-level parameters.
@@ -1688,20 +1730,13 @@ models were evaluated using the same observed actions and block structure.
 For implementational details, please refer to
 \mbox{\textit{abm\_evaluation.py}}.
 
+\clearpage
 
 # Preliminary results {#sec-preliminary-results}
 
-Using the log-likelihood-scale BIC defined above, the BIC of A1 exceeded
-that of A0 for all 49 participants. The participant-specific differences
-$\Delta\mathrm{BIC}_p$ were therefore positive throughout, with a median of
-$966.11$, a mean of $926.79$, and a range from $475.19$ for participant 009
-to $1374.70$ for participant 040. Thus, BIC favored A1
-for every participant despite the penalty for its three fitted parameters.
-
-\clearpage
 
 ![Conditional log-likelihood surfaces and participant-specific parameter
-estimates for agent A1. Panels A--C show the log likelihood as a function of
+estimates for agent A1. Panels A--C show the log-likelihood as a function of
 $\beta$ and $\sigma$ for sub-008, sub-046, and sub-011, respectively. In each
 panel, $\tau$ is fixed at the jointly estimated value shown above the
 surface. Parameter ranges and color scales are participant-specific, and
@@ -1721,13 +1756,20 @@ fig-pos="H" width="100%"}
 
 [par-est]: ../figures/abm_figure_3.pdf
 
+Using the log-likelihood-scale BIC defined above, the BIC of A1 exceeded
+that of A0 for all 49 participants. The participant-specific differences
+$\Delta\mathrm{BIC}_p$ were therefore positive throughout, with a median of
+$966.11$, a mean of $926.79$, and a range from $475.19$ for participant 009
+to $1{,}374.70$ for participant 040. Thus, BIC favored A1
+for every participant despite the penalty for its three fitted parameters.
+
 Panels A--C of @fig-par-est show conditional log-likelihood
 surfaces in $\beta$ and $\sigma$, with $\tau$ fixed at its jointly estimated
 value. These surfaces illustrate different patterns of parameter
-sensitivity. For sub-008, the log likelihood approaches a plateau as
+sensitivity. For sub-008, the log-likelihood approaches a plateau as
 $\beta$ increases at the boundary $\sigma = 0$, but decreases sharply as
-$\sigma$ increases. Thus, the surface distinguishes small from sufficiently
-large imbalance costs while providing little information about the
+$\sigma$ increases. Thus, the surface separates small values of $\beta$ from
+sufficiently large ones, while providing little information about the
 magnitude of $\beta$ within the plateau. For sub-046 and sub-011, the
 surfaces exhibit more localized peaks and curved ridges, along which
 changes in the imbalance and switching costs partially compensate for one
@@ -1863,7 +1905,7 @@ by backward induction. The material covered here is discussed in @puterman1994
 ### Markov decision processes {#sec-markov-decision-processes}
 
 ::: {#def-markov-decision-process}
-### Finite-horizon Markov decision process
+## Finite-horizon Markov decision process
 
 A discrete-time, finite-horizon, time-homogeneous *Markov decision process*
 is a tuple
@@ -1930,7 +1972,7 @@ p(r_{t+1},s_{t+1}|s_t,a_t) = p(r_{k+1},s_{k+1}|s_k,a_k).
 $p(s_{t+1}|s_t,a_t)$ denotes the collection of conditional next-state
 probabilities obtained by marginalizing over rewards,
 \begin{equation}
-p(s_{t+1}|s_t,a_t) = \sum_{r_{t+1}} p(r_{t+1},s_{t+1}|s_t,a_t).
+p(s_{t+1}|s_t,a_t) = \sum_{r_{t+1}} p(r_{t+1},s_{t+1}|s_t,a_t),
 \end{equation}
 referred to as *induced state-transition probabilities*. By marginalization,
 both the conditional independence property of the state- and
@@ -1950,7 +1992,7 @@ p(s_{t+1}|s_t,a_t) = p(s_{k+1}|s_k,a_k).
 \begin{equation}
 \label{eq-mdp-action-reward-function}
 \rho : S \times A \to \mathbb{R}, (s,a) \mapsto \rho(s,a)
-:= \mathbb{E}(r_{t+1}|s_t = s,a_t = a).
+:= \mathbb{E}(r_{t+1}|s_t = s,a_t = a),
 \end{equation}
 where
 \begin{equation}
@@ -1981,7 +2023,7 @@ We next define decision functions and policies, which specify how these
 actions are selected.
 
 ::: {#def-policies-and-decision-functions}
-### Decision functions and policies
+## Decision functions and policies
 
 For a finite-horizon Markov decision process, let
 $J := \{0,1,\ldots,T\}$, let $S$ be its finite state space, and let $A$ be its
@@ -2126,7 +2168,7 @@ of a *policy-dependent MDP*, as defined next.
 :::
 
 ::: {#def-policy-dependent-markov-decision-process}
-### Finite-horizon policy-dependent Markov decision process
+## Finite-horizon policy-dependent Markov decision process
 
 A discrete-time, finite-horizon *policy-dependent Markov decision process*
 under $\pi$ is a tuple
@@ -2364,6 +2406,7 @@ p^\pi(r_k|s_t, a_t, s_{t+1})
 \end{align}
 At $t = 0$, the preceding state-action history is empty and its conditional probability is one.
 :::
+
 ### Policy-dependent value and action-value functions {#sec-policy-values}
 
 The fundamental goal of policy optimization is to maximize the expected
@@ -2943,8 +2986,10 @@ The optimal action-value function is related to the optimal value function by
 the identities stated in the following theorem.
 
 ::: {#thm-optimal-action-value-function-optimal-value-function}
-Let $v_t^*$ and $q_t^*$ denote the optimal value function and the optimal 
-action-value function of a policy-dependent MDP. Then, for all
+## Optimal action-value function and optimal value function
+
+Let $v_t^*$ and $q_t^*$ denote the optimal value function and the optimal
+action-value function of a finite-horizon MDP. Then, for all
 $s_t \in S$, $a_t \in A$, and $t = 0,1,\ldots,T-1$,
 \begin{equation}
 \label{eq-optimal-action-value-function-and-optimal-value-function}
@@ -3485,7 +3530,7 @@ states.
 ## S4 Successive summation {#sec-successive-summation}
 
 ::: {#thm-successive-summation}
-### Successive summation of products of normalized functions
+## Successive summation of products of normalized functions
 
 For $i = 1,\ldots,n$, let $D_i$ denote nonempty finite sets and let
 \begin{equation}

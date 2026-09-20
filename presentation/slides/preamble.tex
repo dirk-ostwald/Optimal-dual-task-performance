@@ -1,0 +1,45 @@
+% ---------------------------------------------------------------------------
+% Beamer preamble for the model slides of the TP3 kick-off presentation.
+% Geometry: aspectratio 169 (160mm x 90mm), rendered to PNG and placed
+% full-bleed onto the 10in x 5.625in PowerPoint slides. Scale factor 1.5875.
+% ---------------------------------------------------------------------------
+
+% Arial-like sans serif text, matching the deck's Arial typography
+\usepackage[scaled=0.95]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Classic LaTeX (Computer Modern) math, overriding beamer's sans-serif math
+\usefonttheme[onlymath]{serif}
+
+\usepackage{mathtools}
+\usepackage{stmaryrd}
+\usepackage{booktabs}
+\usepackage{array}
+
+% Iverson bracket and argmax, as in the report preamble
+\DeclarePairedDelimiter{\ib}{\llbracket}{\rrbracket}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% Plain white frames, no beamer furniture
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{}
+\setbeamertemplate{headline}{}
+\beamertemplatenavigationsymbolsempty
+
+% Title: black, non-bold Arial, left aligned, matching the deck's 23pt titles
+\setbeamercolor{frametitle}{fg=black,bg=white}
+\setbeamerfont{frametitle}{size=\normalsize,series=\mdseries}
+\setbeamertemplate{frametitle}{%
+  \vspace{2.2mm}\hspace{-1mm}%
+  \fontsize{14.5}{17}\selectfont\insertframetitle\par%
+}
+
+% Text block margins. The rendered slide is placed at 84% scale on the
+% PowerPoint slide, so 6mm here lands the text close to the deck's own
+% 0.83in title flush.
+\setbeamersize{text margin left=6mm, text margin right=6mm}
+
+% Component table: math symbol left, one-line explanation right.
+% Rule-free, with generous leading between rows.
+\newcommand{\componentcolsep}{8mm}
+\newcommand{\componentrowsep}{2.4mm}
