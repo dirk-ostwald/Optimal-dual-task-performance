@@ -38,7 +38,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 PRESENTATION_DIR = HERE.parent
 
-DECK = PRESENTATION_DIR / "TP3-Kick-Off-Presentation-JB-DO-Backup.pptx"
+DECK = PRESENTATION_DIR / "TP3-Kick-Off-Presentation.pptx"
 BACKUP_DIR = HERE / "backups"
 KEEP_BACKUPS = 3
 

@@ -556,3 +556,80 @@ n_b                              & Observed action count of block $b$, treated a
 \end{tabular}
 \end{center}
 ```
+
+## Sequential conditional log likelihood
+
+```{=latex}
+\vspace{-3mm}
+
+\small
+\begin{gather*}
+p_\theta\left(a_{b,0:n_b-1} \Vert s_{b,0:n_b-1}, r_{b,1:n_b-1}\right)
+\coloneqq \prod_{t = 0}^{n_b-1} p_\theta\left(a_{b,t} \,|\, s_{b,0:t}, a_{b,0:t-1}, r_{b,1:t}\right)
+\\[1mm]
+L(\theta) \coloneqq \prod_{b = 1}^{m} p_\theta\left(a_{b,0:n_b-1} \Vert s_{b,0:n_b-1}, r_{b,1:n_b-1}\right),
+\quad
+\ell(\theta) \coloneqq \ln L(\theta),
+\quad
+\hat{\theta} \in \argmax_{\theta \in \Theta} \ell(\theta)
+\end{gather*}
+
+\vspace{0mm}
+
+\begin{center}
+\small
+\begin{tabular}{@{}>{$}r<{$}@{\hspace{\componentcolsep}}l@{}}
+\Vert                                       & Sequential conditioning on the observed history within block $b$  \\[\componentrowsep]
+s_{b,0:t},\, a_{b,0:t-1},\, r_{b,1:t}        & Current and preceding states, preceding actions and rewards       \\[\componentrowsep]
+L : \Theta \to \mathbb{R}_{>0}              & Sequential conditional likelihood, a product over the $m$ blocks  \\[\componentrowsep]
+\ell : \Theta \to \mathbb{R}                & Sequential conditional log likelihood                             \\[\componentrowsep]
+\hat{\theta}                                & Sequential conditional maximum likelihood estimate of $(\beta,\sigma,\tau)$
+\end{tabular}
+\end{center}
+
+\vspace{3mm}
+
+\begin{center}
+\footnotesize
+A causal likelihood in the sense of Ziebart et al.\ (2013), related to the partial likelihood of Cox (1975).
+\end{center}
+```
+
+## Sequential conditional log likelihood: functional form
+
+```{=latex}
+\vspace{-3mm}
+
+\small
+\begin{gather*}
+\ell(\theta)
+= \sum_{b = 1}^{m} \sum_{t = 0}^{n_b-1}
+\left(
+\frac{q_{b,t}^*(s_{b,t},a_{b,t};\beta,\sigma)}{\tau}
+- \ln \sum_{a \in A} \exp\left(\frac{q_{b,t}^*(s_{b,t},a;\beta,\sigma)}{\tau}\right)
+\right)
+\\[1mm]
+\text{since}\quad
+p_\theta\left(a_t \,|\, s_{0:t}, a_{0:t-1}, r_{1:t}\right) = p_\theta(a_t|s_t)
+\end{gather*}
+
+\vspace{0mm}
+
+\begin{center}
+\small
+\begin{tabular}{@{}>{$}r<{$}@{\hspace{\componentcolsep}}l@{}}
+q_{b,t}^*(s_{b,t},a_{b,t};\beta,\sigma)/\tau & Scaled optimal value of the observed action                        \\[\componentrowsep]
+\ln \sum_{a \in A} \exp(\cdot)              & Log normalizer of the softmax over the action set $A$              \\[\componentrowsep]
+q_{b,t}^*                                   & Optimal action-value function for design and horizon of block $b$  \\[\componentrowsep]
+d_{b,t}                                     & Latent decisions sum out, as $p_\theta(a_t|s_t,d_t) = p_\theta(a_t|s_t)$ \\[\componentrowsep]
+s_{0:t-1},\, a_{0:t-1},\, r_{1:t}            & The history drops out of each factor
+\end{tabular}
+\end{center}
+
+\vspace{3mm}
+
+\begin{center}
+\footnotesize
+Successive summation removes all variables after $a_t$, and the earlier factors cancel in the ratio.
+\end{center}
+```
